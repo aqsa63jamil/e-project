@@ -1,0 +1,756 @@
+body{
+    background: #fff;
+}
+h2,
+h3,
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header .container-fluid img{
+    height: 50vh;
+    max-width: 110%;
+    margin-left: -1em;
+    box-shadow: 0 0 20px rgba(126, 126, 126, 0.95);
+}
+header .container-fluid .h2{
+    margin-top: -3.8em;
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 4px 4px 4px #000000;
+    letter-spacing: 2px;
+}
+
+nav ol{
+    margin-top: -11em;
+    margin-left: 0.5em;
+}
+
+nav ol li a{
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+.content h2{
+    color: #092376;
+    margin-left: 1em;
+    margin-top: 14em;
+    font-size: 1.8em;
+    line-height: 2em;
+
+}
+.content p{
+    margin-left: 2em;
+    font-size: 1em;
+    color: #242424;
+    margin-bottom: 3em;
+}
+
+.card {
+    margin-bottom: 3em;
+    margin-left: 3em;
+    width: 22em;
+    height: 20em;
+    background: #c0bbb590;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.card:hover{
+    transition: 0.5s all;
+    box-shadow: 0 0 30px rgba(72, 72, 72, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 8em;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-content {
+    padding: 10px;
+    position: relative;
+}
+
+.card h3 {
+    margin-top: -0.2em;
+    text-align: center;
+    color: #165687;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.card p { 
+    text-align: center;
+    margin-left: -0.1em;
+    font-size: 0.2em;
+    
+}
+
+.card-buttons .button{
+    position: absolute;
+    font-size: 12px;
+    text-decoration: none;
+    background: #2c83c1a5;
+    color: #080808;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: -3em;
+    margin-left: 8.8em;
+    padding: 0.5em;
+    border-radius: 0.8em;
+    font-weight: 600;
+    border: 1px solid #c0c0c0;
+    cursor: pointer;
+}
+
+.card-buttons .button:hover {
+    transition: 0.5s all;
+    border: 1px solid #092357;
+    color: #092357;
+    background-color: #eeeeee;
+}
+
+/*courses*/
+
+.courses h2{
+    color: #092376;
+    margin-left: 1em;
+    margin-top: 3em;
+    transform: translateY(1em);
+    font-size: 1.8em;
+    line-height: 2em;
+}
+
+.courses .p1{
+    color: #242424;
+    font-size: 1em;
+    margin-left: 2em;
+    margin-bottom: 3em;
+    margin-top: 2em;
+    line-height: 1.5em;
+}
+
+.card1{
+    margin-bottom: 2em;
+    margin-left: 2em;
+    width: 24em;
+    height: auto;
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 0.8em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card1:hover{
+    box-shadow: 0 0 10px rgba(72, 72, 72, 0.2);
+    background: #ececec8b;
+    
+}
+
+.card1 img {
+    width: 100%;
+    height: 7em;
+    object-fit: cover;
+    border-radius: 0.8em;
+}
+.card1 .image {
+    position: relative;
+}
+.card1 .image h4{
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    padding: .3rem;
+    background: rgba(61, 61, 61, 0.493);
+    color: #f5f5f5;
+    border-radius: 0.3em;
+}
+
+.card-content1{
+    padding: 10px;
+}
+
+.circle{
+    border: 1px solid #10315f;
+    width: 2.2em;
+    height: 2.2em;
+    float: right;
+    margin-top: -1em;
+    background: #2b5ba3;
+    border-radius: 50em;
+}
+
+.card-content1 .circle p{
+    margin-top: 0.8em;
+    text-align: center;
+    color: #dfdfdf;
+    font-size: 0.7em;
+}
+
+.card-content1 h3{
+    color: #092357;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+.card1 p{
+    color: #242424;
+    font-size: 0.8em;
+    margin: 5px 0;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.card-buttons1 button {
+    font-size: 13px;
+    text-decoration: none;
+    background: #2b5ba3;
+    color: #dfdfdf;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 2px;
+    margin-top: 0.5em;
+    margin-left: -2em;
+    transition: 0.3s;
+    border-radius: 0.5em;
+    font-weight: 600;
+    border: 1px solid #c0c0c0;
+    cursor: pointer;
+}
+
+.card-buttons1 button:hover {
+    background: #c7d7e7;
+    color: #092357;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+
+.icons span{
+    font-size: 0.7em;
+}
+
+.icons span i{
+    color: #10315f;
+}
+
+.courses .s{
+    font-size: 4em;
+    color: #10315f;
+}
+
+.courses .p2{
+    color: #0056b3;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/*admission process */
+.process {
+    transform: translateY(3em);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    background: #dbd9d98c;
+    display: flex;
+    justify-content: center;
+    margin-right: 5em;
+    margin-left: 5em;
+    margin-bottom: 3em;
+    border-radius: 0.7em;
+}
+.process h2 .Ad{
+    margin-left: 1.5em;
+    color: #092376;
+    font-weight: bold;
+}
+
+.process h5{
+    display: flex;
+    justify-content: left;
+    font-size: 1em;
+    line-height: 4em;
+    color: #2650a3;
+    margin-left: 2.5em;
+    font-weight: bold;
+    
+}
+
+.process h5 p{
+    color: #2a2a2a;
+    margin-left: 0.7em;
+    margin-top: 2.1em;
+   font-size: 0.8em;
+   font-weight: 500;
+  
+}
+
+
+/* Mathematics Start */
+header .container-fluid .math{
+    margin-top: -3.8em;
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 4px 4px 4px #000000;
+    letter-spacing: 2px;
+}
+
+main{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+main #left {
+    text-align: left;
+    width: 45%;
+    margin-right: 1em;
+    margin-bottom: 3em;
+}
+main #left img{
+    width: 37em;
+    height: 25em;
+    border-radius: 1em;
+    border: 2px solid #a4a4a4;
+    box-shadow: 10px 10px rgb(216, 216, 216);
+    margin-left: 1em;
+    margin-top: 25em;
+    margin-bottom:5em;
+    object-fit: cover;
+}
+
+#left h3{
+    color: #10315f;
+    margin-left: 1.5em;
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+#left p{
+    line-height: 2em;
+    color: #515151;
+    font-weight: 500;
+    margin-right: 1em;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+#left .p2{
+    line-height: 3em;
+    color: #515151;
+    font-weight: 500;
+    margin-right: 1em;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+main #right{
+    width: 50%;
+    margin-top: 3em;
+    margin-left: 2em;
+    margin-right: 1em;
+    margin-bottom: 3em;
+}
+#right h2{
+    color: #787878;
+    margin-top: 8.8em;
+}
+
+#right p{
+    color: #515151;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.7em;
+}
+#right h4{
+    color: #10315f;
+    text-align: center;
+}
+#right h5{
+    text-align: center;
+    color: rgb(216, 111, 72);
+    margin-bottom: 1em;
+}
+
+/*courses */
+.course1 {
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+.course1 .text-center1 h2 span {
+    color: #092357;
+}
+.course1 .text-center1 .para{
+    margin-top: -2em;
+}
+.course1 .text-center1 h3{
+    color: rgb(220, 106, 65);
+    font-size: 2em;
+    margin-bottom: 1em;
+
+}
+.course1 .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #e3e3e3; 
+    cursor: pointer;
+    transition: 1s;
+}
+
+.course1 .card1 img{
+    height: 10em;
+    object-fit: cover;
+}
+.course1 .card1 h5{
+    color: #092357;
+    font-size: 15px;
+    margin-top: 0.5em;
+}
+.course1 .card1 h6{
+    font-size: 0.7em;
+}
+.course1 .card1 p{
+    font-size: 13px;
+}
+.course1 .card1:hover{
+    border: 1px solid #d0deed;
+    box-shadow: 0 0 10px rgba(89, 89, 89, 0.541);
+}
+.course1 .btn {
+    height: 30px;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 0.3em;
+    text-align: center;
+    background: rgb(116, 167, 215);
+    color: #0a1f3b;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    font-weight: 500;
+    border-radius: 0.4em;
+    border: 1px solid #c0c0c0;
+}
+    
+.course1 .btn:hover{
+    color: #202020;
+    background: #c7d7e7;
+    border-radius: 0.6em;
+    font-weight: 600;
+    border:1px solid #144282;
+}
+.course1 .para1 span{
+    color: #0056b3;
+    font-weight: bold;
+}
+.course1 .para1{
+    color: #0a1f3b;
+    line-height: 2em;
+    font-weight: 500;
+}
+.course1 .btn2 {
+    background: rgb(116, 167, 215);
+    color: #0a1f3b;
+    padding: 0.5em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 0.5em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 30.4em;
+    border: 1px solid #c0c0c0;
+}
+    
+.course1 .btn2:hover{
+    color: #242424;
+    background: #c7d7e7;
+    border-radius: 0.6em;
+    border:1px solid #144282;
+}
+/* content */
+.content {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+::marker{
+    color: black;
+    font-size: 1em;
+}
+
+.content .related-topics h2{
+    color: rgb(220, 106, 65);
+    text-transform: capitalize;
+    margin-top: 2em;
+}
+
+.content .related-topics-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 2em;
+    gap: 1em;
+    height: 1.5em;
+}
+
+.content .related-topics-list a{
+    color: #242424;
+    border: 1px solid rgb(220, 106, 65);
+    text-decoration: none;
+    background-color: rgb(215, 142, 116);
+    text-align: center;
+    width: 11.7em;
+    text-align: center;
+    border-radius: 0.3em;
+    cursor: pointer;
+    font-size: 0.9em;
+     color: #fff;
+}
+.content .learn-body{
+    margin-top: -22em;
+}
+.content .learn-body h4{
+    color: #10315f;
+    margin-left: 1em;
+    
+}
+.content .learn-body p{
+    font-size: 1em;
+    line-height: 2em;
+}
+.content #text-module ul{
+    margin-top: -2em;
+}
+.content #text-module ul li {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 3em;
+    margin-left: 4em;
+}
+.modular-section .text-module{
+    margin-top: -25em;
+}
+.modular-section .text-module h3{
+    color: #10315f;
+    font-size: 2em;
+    margin-left: 1em;
+    
+}
+.modular-section .text-module p{
+    margin-top: 1em;
+    font-size: 1em;
+}
+.modular-section .text-module ul{
+    margin-top: -1em;
+}
+.modular-section .text-module ul li{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 3em;
+    margin-left: 4em;
+}
+
+/*commerce */
+header .container-fluid .com{
+    margin-top: -3.8em;
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 4px 4px 4px #000000;
+    letter-spacing: 2px;
+}
+ 
+
+main #left .side-pic{
+    width: 37em;
+    height: 25em;
+    border-radius: 1em;
+    border: 2px solid #eaeaea;
+    box-shadow: 10px 10px rgb(216, 216, 216);
+    margin-left: 1em;
+    margin-top: 25em;
+    margin-bottom:5em;
+    object-fit: cover;
+}
+#right .Co{
+    margin-top: 8.8em;
+    color: #787878;
+}
+#right .p2{
+    color: #515151;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.7em;
+}
+
+/* subject list */
+header .container-fluid .btn2{
+    display: inline-block;
+    transform: translateX(23em);
+    justify-content: space-around;
+    margin-left: 1em;
+    margin-top: 5.5em;
+    color: #111111;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1em;
+    border: 1px solid #dedede;
+    text-decoration: none;
+    border-radius: 0.6em;
+
+}
+header .container-fluid .btn2:hover{
+    background: #c7d7e7;
+}
+.content p{
+    font-size: 14px;
+    color: #242424;
+}
+.content .card1{ 
+    background: rgba(230, 215, 168, 0.894);
+    margin-left: 2em;
+    width: 17em;
+    height: auto;
+    text-align: center;
+}
+.content .card1 h5{
+    color: #092357;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+.content .card1 .card-text{
+    font-size: 12px;
+    line-height: 2em;
+    color: #080808;
+}
+
+.content .learn-body h5{
+    color: #092357;
+    margin-left: 1.5em;
+    font-size: 1em;
+}
+.content .learn-body h5 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #323232;
+}
+.content .heading{
+    margin-top: 1em;
+}
+.content .p2{
+    line-height: 2em;
+    font-size: 14px;
+}
+.learn-body ul b{
+    color: rgb(216, 111, 72);
+}
+
+@media (max-width:991px) {
+    header .container-fluid img{
+        height: 50vh;
+        max-width: 102.9%;  
+    }
+    header .container-fluid .h2,
+    header .container-fluid .math,
+    header .container-fluid .com
+    {
+        margin-top: -4.8em;
+        font-size: 3em;
+    }
+    nav ol{
+        margin-top: -14em;
+        margin-left: 0.5em;
+    }
+    .content .card{
+        margin-left: 5em;
+    }
+    .content h2{
+        margin-top: 16em;
+    }
+    .process {
+        margin-left: 2em;
+        margin-right: 3em;
+        width: 95%;
+        transform: translateY(4em);
+    }
+    .process h5{
+        justify-content: left;
+        font-size: 0.8em;
+        margin-left: 1.5em;
+    }
+    
+    .process h5 p{
+        word-wrap: break-word;
+        margin-left: 0.4em;
+        margin-top: 1.9em;
+       font-size: 0.9em;     
+    }
+    main{
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    
+    main #left {
+        text-align: left;
+        width: 50%;
+        margin-right: 1em;
+        margin-bottom: 3em;
+    }
+    main #left img,
+    main #left .side-pic
+    {
+        width: 27em;
+        height: 25em;
+        margin-top: 30em;
+    }
+    main #right
+    {
+        width: 50%;
+        margin-top: 10em;
+        margin-right: 1em;
+        margin-bottom: 3em;
+    }
+    .course1{
+        width: 92%;
+        margin-left: 1.7em;
+        margin-right: 1em;
+    }
+    .course1 .text-center1 h2 span,
+    .course1 .text-center1 h3
+    {
+        margin-left: -3em;
+    }
+    .course1 .text-center1 .para{
+        margin-top: -2em;
+        margin-left: -6em;
+    }
+    .course1 .card1 {
+        min-width: 45%;
+        margin-left: 0.5em;
+    }
+    .card-buttons1 button {
+        font-size: 14px;
+        padding: 0.1em;
+        margin-left: -1em;
+    }
+    .course1 .btn2 {
+        margin-left: 17em;
+    }
+}

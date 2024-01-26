@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links -->
+    <link rel="stylesheet" href="./Assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="./Assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href=./course.css>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Courses</title>
+
+</head>
+<body>
+        <!-- Navigation start -->
+    
+        <nav class="navbar navbar-expand-lg  sticky-top" style="background-color: #3e587c;" >     
+          <div class="container-fluid px-5" >   
+            <img src="./Assets/Logo/logo e-project-01.png" alt="Bootstrap" width="50" height="60">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="./Index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="./aboutUs.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="./Faculty.html">FACULTY</a>
+                </li>
+                <li class="dropdown"><a class="nav-link scrollto text-light" href="./Courses.html"><span>COURSES</span> <i class="bi bi-chevron-down"></i></a>
+                  <ul class="ul">
+                    <li class="dropdown"><a href="./Math.html"><span> Mathematics</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Statistics</a></li>
+                        <li><a href="#">Algebra</a></li>
+                        <li><a href="#">Calculus and Analysis</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./Math.html">See All</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="./commerce.html"><span>Commerce</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Accounting</a></li>
+                        <li><a href="#">Economics</a></li>
+                        <li><a href="#">Finance</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./commerce.html">See All</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="./science.html"><span>Science(Phy,Chem,Bio)</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Environmental Science</a></li>
+                        <li><a href="#">Geology</a></li>
+                        <li><a href="#">BioChemistry</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./science.html">See All</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="./english.html"><span>English Language and Literature<span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Linguistics</a></li>
+                        <li><a href="#">Creative Writing</a></li>
+                        <li><a href="#">History of English Language</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./english.html">See All</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="./computer science.html"><span>Computer Science<span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Software Engineering</a></li>
+                        <li><a href="#">Artificial Intelligence</a></li>
+                        <li><a href="#">Database Management</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./computer science.html">See All</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>Foreign Languages<span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Spanish</a></li>
+                        <li><a href="#">Arabic</a></li>
+                        <li><a href="#">French</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">See All</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>Additional Electives<span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Visual Arts</a></li>
+                        <li><a href="#">Sociology</a></li>
+                        <li><a href="#">Cultural Studies</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">See All</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="./Contact.html">CONTACT</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+
+          <div class="container-fluid justify-content-end" >
+        <div class="d-flex">
+          <div class="p-2">
+            <a href="https://twitter.com/?lang=en">
+            <i class="fa-brands fa-twitter" style="color: #e6e6e6;"></i>
+          </a>
+        </div>
+          <div class="p-2">
+            <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE">
+            <i class="fa-brands fa-facebook" style="color: #e6e6e6;"></i>
+         </a> 
+        </div>
+          <div class="p-2">
+            <a href="https://www.instagram.com/">
+            <i class="fa-brands fa-instagram" style="color: #e6e6e6;"></i>
+          </a>
+          </div>
+          <div class="p-2">
+            <a href="https://www.google.com/gmail/about/">
+            <i class="fa-brands fa-google" style="color: #e6e6e6;"></i>
+          </a>
+        </div>
+          <div class="p-2">
+            <a href="https://pk.linkedin.com/">
+            <i class="fa-brands fa-linkedin" style="color: #e6e6e6;"></i>
+          </a>
+        </div>
+            </div>
+            <a class="navbar-brand" href="#"></a>
+            
+          </div>
+        </nav>
+        <!-- Navigation end-->
+
+        <!-- header -->
+        <header>
+          <div class="container-fluid">
+            <img src="./Assets/header-img.jpg" alt="image" width="1359" height="300">
+            <h2 class="h2 fw-bolder">Subjects/Courses</h2>
+
+            <!-- breadcrumb start -->
+              <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='orange'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item fw-bold"><a href="./Index.html" >Home</a></li>
+                  <li class="breadcrumb-item active text-light fw-semibold" aria-current="page">Courses</li>
+                </ol>
+              </nav><!-- breadcrumb end -->
+          </div>
+       </header> 
+       <!-- header end -->
+
+        <!-- subject start -->
+        <section class="content pt-0 pb-3">
+          <h2 class="display-6 fw-bolder">Subjects We Offer</h2>
+          <p class="lh-2">At Excellent Coaching, we understand the importance of a strong foundation in various subjects. Our dedicated team of educators is committed to providing comprehensive coaching in the following subjects:</p>
+
+
+          <div class="card">
+            <img src="./Assets/card img/Math.jpg" alt="Sub 1">
+            <div class="card-content">
+                <h3 class=" fw-semibold">Mathematics</h3>
+            <!--<div class="circle"><p>$500</p></div> -->
+                <p class="text-dark">We are excited about providing comprehensive education in the field of mathematics. It encompasses various subjects.</p>
+                
+                <div class="card-buttons">
+                  <a href="./Math.html" class="button">Learn More</a>
+                </div>
+            </div>
+          </div> 
+
+          <div class="card">
+            <img src="./Assets/card img/commerce.jpg" alt="Sub 2">
+            <div class="card-content">
+                <h3 class="fw-semibold">Commerce</h3>
+            <!--<div class="circle"><p>$500</p></div> -->
+                <p class="text-dark">Commerce is the lifeblood of the business world, and it is diverse field encompassing a wide range of subjects that are essential for the world of business and finance</p>
+                
+                <div class="card-buttons">
+                    <a href="./commerce.html" class="button">Learn More</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./Assets/card img/science..jpg" alt="Sub 3">
+            <div class="card-content">
+                <h3 class="fw-semibold">Science</h3>
+            <!--<div class="circle"><p>$500</p></div> -->
+                <p class="text-dark">Science is the key to understanding the natural world. It encompassing subjects like physics, chemistry, and biology, is a field that intersects with various related subjects.</p>
+                
+                <div class="card-buttons">
+                  <a href="./science.html" class="button">Learn More</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./Assets/card img/computer-science.jpg" alt="Sub 4">
+            <div class="card-content">
+                <h3 class="fw-semibold">Computer Science</h3>
+              <!--<div class="circle"><p>$500</p></div> -->
+                <p class="text-dark">Computer Science is a dynamic field that intersects with many related subjects. In today's digital age, computer science is at the forefront of innovation and problem-solving.</p>
+                
+                <div class="card-buttons">
+                  <a href="./computer science.html" class="button">Learn More</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./Assets/card img/english.jpg" alt="Sub 5">
+            <div class="card-content">
+                <h3 class="fw-semibold">English</h3>
+              <!--<div class="circle"><p>$500</p></div> -->
+                <p class="text-dark">English Language and Literature often encompass various related subjects that can provide a comprehensive understanding of the language, literature.</p>
+                
+                <div class="card-buttons">
+                  <a href="./english.html" class="button">Learn More</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./Assets/card img/language.jpg" alt="Sub 6">
+            <div class="card-content">
+                <h3 class="fw-semibold">Foreign Languages</h3>
+            <!--<div class="circle"><p>$500</p></div> -->
+                <p class="text-dark">In our interconnected world, the ability to communicate in different languages is not only a valuable skill but a gateway to connecting with diverse cultures.</p>
+                
+                <div class="card-buttons">
+                  <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./Assets/card img/Additional electives.PNG" alt="Sub 7">
+            <div class="card-content">
+                <h3 class="fw-semibold">Additional Electives</h3>
+              <!--<div class="circle"><p>$500</p></div> -->
+                <p class="text-dark">Additional Electives subjects provide students with the opportunity to explore unique areas of study, opening doors to personal growth and intellectual exploration.</p>
+
+                <div class="card-buttons">
+                  <a href="" class="button">Learn More</a>
+                </div>
+            </div>
+          </div>
+        
+        </section>
+        <!-- subject end -->
+
+        <!-- courses-sec start -->
+        
+        <section class="courses pt-0 pb-3" style="background-color: #edececb1; margin-left: 1em; margin-right: 1em; box-shadow: 0 0 10px rgba(126, 126, 126, 0.55); border-radius: 0.7em;">
+         
+          <h2 class="display-6 fw-bolder text-uppercase text-left">Courses</h2>
+          <p class="p1 text-left">At Excellent Coaching, We offer a wide range of courses tailored to your needs. Our courses are tailored to provide comprehensive subject knowledge, exam preparation strategies, and <br> the confidence needed to excel. Discover the courses we offer:</p>
+
+          <div class="container-fluid flex-row justify-content-around text-center">
+
+          <div class="card1">
+            <div class="image">
+              <img src="./Assets/card img/calculus..jpg" alt="Course 1">
+              <h4>Choose What's Best For You</h4>
+            </div>
+
+            <div class="card-content1">
+              <h3>Calculus Fundamentals</h3>
+              <div class="circle"><p class="fw-semibold">$25</p></div>
+                <p>This course offers a comprehensive introduction to the fundamental principles of calculus. Students will explore topics like limits, derivatives, and integrals.</p>
+                <div class="card-buttons1">
+                    <button>Read More</button>
+                </div>
+                <div class="icons">
+                  <span><i class="fas fa-book"></i> 6 Modules</span>
+                  <span><i class="fas fa-clock"></i> 2 hours</span>
+                </div>
+            </div>
+          </div>
+          
+
+        <div class="card1">
+          <div class="image">
+            <img src="./Assets/card img/accounting (2).jpg" alt="Course 2">
+            <h4>Choose What's Best For You</h4>
+          </div>
+
+          <div class="card-content1">
+            <h3>Financial Accounting</h3>
+              <div class="circle"><p class="fw-semibold">$100</p></div>
+              <p>The Financial Accounting Essentials course provides a comprehensive introduction to the principles of financial accounting. </p>
+              <div class="card-buttons1">
+                  <button>Read More</button>
+              </div>
+              <div class="icons">
+                <span><i class="fas fa-book"></i> 6 Modules</span>
+                <span><i class="fas fa-clock"></i> 2 hours</span>
+              </div>
+          </div>
+      </div>
+
+      <div class="card1">
+        <div class="image">
+          <img src="./Assets/card img/lab equipments.jpeg" alt="Course 3">
+          <h4>Choose What's Best For You</h4>
+        </div>
+
+        <div class="card-content1">
+          <h3>Basic Uses of Lab Equipment
+          </h3>
+              <div class="circle"><p class="fw-semibold">$70</p></div>
+            <p>This course is designed for individuals interested in gaining proficiency in handling common laboratory equipment and tools.</p>
+            <div class="card-buttons1">
+                <button>Read More</button>
+            </div>
+            <div class="icons">
+              <span><i class="fas fa-book"></i> 5 Modules</span>
+              <span><i class="fas fa-clock"></i> 2 hours</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="card1">
+      <div class="image">
+        <img src="./Assets/card img/Microsoft office.jpeg" alt="Course 4">
+        <h4>Choose What's Best For You</h4>
+      </div>
+
+      <div class="card-content1">
+          <h3>Information System Management</h3>
+            <div class="circle"><p class="fw-semibold">$240</p></div>
+          <p>An ISM course not only equips students with technical skills but also hones their ability to bridge the gap between technology and business needs.</p>
+          <div class="card-buttons1">
+              <button>Read More</button>
+          </div>
+          <div class="icons">
+            <span><i class="fas fa-book"></i> 2 Modules</span>
+            <span><i class="fas fa-clock"></i> 1 hours</span>
+          </div>
+      </div>
+    </div>
+
+    <div class="card1">
+      <div class="image">
+        <img src="./Assets/card img/IELTS.jpg" alt="Course 5">
+        <h4>Choose What's Best For You</h4>
+      </div>
+
+      <div class="card-content1">
+          <h3>IELTS</h3>
+            <div class="circle"><p class="fw-semibold">$30</p></div>
+          <p>The IELTS Course is designed to help students improve their English language skills.This course covers all four language skills: listening, reading, writing, and speaking.</p>
+          <div class="card-buttons1">
+              <button>Read More</button>
+          </div>
+          <div class="icons">
+            <span><i class="fas fa-book"></i> 5 Modules</span>
+            <span><i class="fas fa-clock"></i> 2 hours</span>
+          </div>
+      </div>
+    </div>
+
+    <div class="card1">
+      <div class="image">
+        <img src="./Assets/card img/Foreign Languages.jpeg" alt="Course 6">
+        <h4>Choose What's Best For You</h4>
+      </div>
+
+      <div class="card-content1">
+          <h3>Learn Languages</h3>
+            <div class="circle"><p class="fw-semibold">$20</p></div>
+          <p>This course is designed to introduce beginners to different languages. Students will learn basic vocabulary, grammar, and conversational skills.</p>
+          <div class="card-buttons1">
+              <button>Read More</button>
+          </div>
+          <div class="icons">
+            <span><i class="fas fa-book"></i> 2 Modules</span>
+            <span><i class="fas fa-clock"></i> 1 hours</span>
+          </div>
+      </div>
+    </div>
+  </div>
+
+    <p class="p2"><span class="s">.</span> Choose the course that suits your goals and aspirations.</p>
+
+        </section>
+        <!-- courses-sec end -->
+
+        <!-- admission process start-->
+        <section class="process py-5">
+          
+            <div class="text-left my-3">
+              <h2 class="display-8 fw-semibold"><span class="Ad text-uppercase">Admission Process</span></h2>
+              <br>
+                <h5>Explore Courses: <p class=" p-0 lh-1">Take a look at the variety of courses we offer in subjects such as mathematics, science, languages, and more.</p></h5>
+
+                <h5>Contact Us: <p class=" p-0 lh-1">Get in touch with us through our website or contact information to express your interest and gather more information about the courses.</p></h5>
+
+                <h5>Consultation: <p class="p-0 lh-1">We'll schedule a consultation to discuss your educational goals, interests, and any specific requirements you may have.</p></h5>
+
+                <h5>Course Selection: <p class="p-0 lh-1">Based on the consultation, we'll help you choose the course that best aligns with your needs and aspirations.</p></h5>
+
+                <h5>Registration: <p class=" p-0 lh-1">Complete the registration form provided by our team and submit any required documents, such as academic transcripts or identification.</p></h5>
+
+                <h5>Assessment (if applicable): <p class="p-0 lh-1">Some courses may require an assessment or entrance test to gauge your level of proficiency.</p></h5>
+
+                <h5>Review and Confirmation: <p class="p-0 lh-1">Our team will review your application and, upon acceptance, confirm your enrollment. </p></h5>
+
+                <h5>Payment: <p class="p-0 lh-1">Pay the course fees as per the provided payment details. We accept various payment methods for your convenience.</p></h5>
+
+                <h5>Orientation: <p class="p-0 lh-1">Attend an orientation session to get acquainted with the course structure, curriculum, and any other important information.</p></h5>
+
+                <h5>Begin Learning:<p class="p-0 lh-1">Start your educational journey on the scheduled start date.</p></h5>
+
+                <h5>Course Completion: <p class=" p-0 lh-1">Upon successful completion of the course, you'll receive a certificate or acknowledgment of your achievement.</p></h5>
+            </div>
+                       
+        </section>
+        <!-- admission process end-->
+       <br><br><br>
+
+     <!-- footer Start -->
+     <footer class="text-center text-lg-start text-muted">
+
+      <!-- Social media Start-->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+      <!-- Left Start -->
+        <div class="Left me-5 d-none d-lg-block fw-semibold">
+          <span>Get connected with us on social networks:</span>
+        </div>
+      <!-- Left End -->
+
+      <!-- Right Start -->
+      <div>
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-facebook-f" style="color: #e6e6e6;"></i>
+        </a>
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-twitter" style="color: #e6e6e6;"></i>
+        </a>
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-google" style="color: #e6e6e6;"></i>
+        </a>
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-instagram" style="color: #e6e6e6;"></i>
+        </a>
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-linkedin" style="color: #e6e6e6;"></i>
+        </a>
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-github" style="color: #e6e6e6;"></i>
+        </a>
+      </div>
+      <!-- Right End -->
+
+      </section>
+
+      <!-- Social media End-->
+
+      <!-- Links -->
+      <section class="link">
+        <div class="container text-center text-md-start mt-5">
+
+        <!-- Grid row -->
+        <div class="row mt-3">
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4" style="color: #71b1e1; font-size: 1em;">
+              <div class="footer-logo">
+                <img src="./Assets/Logo/logo e-project-01.png" alt="Your Logo">
+            Excellent Coaching</div>
+            </h6>
+            <p>
+              Welcome to Excellent Coaching - Your Path to Success!
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+            <h6 class="text-uppercase fw-semibold mb-4 ">
+              Explore Our Courses
+            </h6>
+            <p>
+              <a href="./Math.html" class="text-reset">Mathematics</a>
+            </p>
+            <p>
+              <a href="./commerce.html" class="text-reset">Commerce</a>
+            </p>
+            <p>
+              <a href="./science.html" class="text-reset">Science</a>
+            </p>
+            <p>
+              <a href="./english.html" class="text-reset">English</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+              <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-semi-bold mb-4">
+            Quick links
+          </h6>
+          <p>
+            <a href="./aboutUs.html" class="text-reset">About Us</a>
+          </p>
+          <p>
+            <a href="./Faculty.html" class="text-reset">Faculty</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">FAQ</a>
+          </p>
+          <p>
+            <a href="./Contact.html" class="text-reset">Contact</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+            <!-- Links -->
+            <h6 class="text-uppercase fw-semi-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>123 Example Street, City, Country</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Links -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.25); color: #e8e8e8;">
+        © 2019 Copyright:
+        <a class="text-reset fw-bold" href="http://127.0.0.1:5500/Index.html" style="text-decoration: none;">Excelent Coaching</a><p>All rights reserved.</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+      <!-- footer End -->
+
+</body>
+</html>

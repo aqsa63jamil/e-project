@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links -->
+    <link rel="stylesheet" href="./Assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="./Assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href=./course.css>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Commerce</title>
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    
+    <nav class="navbar navbar-expand-lg  sticky-top" style="background-color: #3e587c;" >     
+        <div class="container-fluid px-5" >   
+          <img src="./Assets/Logo/logo e-project-01.png" alt="Bootstrap" width="50" height="60">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="./Index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./aboutUs.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./Faculty.html">FACULTY</a>
+              </li>
+              <li class="dropdown"><a class="nav-link scrollto text-light" href="./Courses.html"><span>COURSES</span> <i class="bi bi-chevron-down"></i></a>
+                <ul class="ul">
+                  <li class="dropdown"><a href="./Math.html"><span> Mathematics</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Statistics</a></li>
+                      <li><a href="#">Algebra</a></li>
+                      <li><a href="#">Calculus and Analysis</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./Math.html">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="./commerce.html"><span>Commerce</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Accounting</a></li>
+                      <li><a href="#">Economics</a></li>
+                      <li><a href="#">Finance</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./commerce.html">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="./science.html"><span>Science(Phy,Chem,Bio)</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Environmental Science</a></li>
+                      <li><a href="#">Geology</a></li>
+                      <li><a href="#">BioChemistry</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./science.html">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="./english.html"><span>English Language and Literature<span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Linguistics</a></li>
+                      <li><a href="#">Creative Writing</a></li>
+                      <li><a href="#">History of English Language</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./english.html">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="./computer science.html"><span>Computer Science<span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Software Engineering</a></li>
+                      <li><a href="#">Artificial Intelligence</a></li>
+                      <li><a href="#">Database Management</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./computer science.html">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#"><span>Foreign Languages<span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Spanish</a></li>
+                      <li><a href="#">Arabic</a></li>
+                      <li><a href="#">French</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#"><span>Additional Electives<span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Visual Arts</a></li>
+                      <li><a href="#">Sociology</a></li>
+                      <li><a href="#">Cultural Studies</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">See All</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./Contact.html">CONTACT</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+        <div class="container-fluid justify-content-end" >
+          <div class="d-flex">
+            <div class="p-2">
+              <a href="https://twitter.com/?lang=en">
+              <i class="fa-brands fa-twitter" style="color: #e6e6e6;"></i>
+            </a>
+          </div>
+            <div class="p-2">
+              <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE">
+              <i class="fa-brands fa-facebook" style="color: #e6e6e6;"></i>
+           </a> 
+          </div>
+            <div class="p-2">
+              <a href="https://www.instagram.com/">
+              <i class="fa-brands fa-instagram" style="color: #e6e6e6;"></i>
+            </a>
+            </div>
+            <div class="p-2">
+              <a href="https://www.google.com/gmail/about/">
+              <i class="fa-brands fa-google" style="color: #e6e6e6;"></i>
+            </a>
+          </div>
+            <div class="p-2">
+              <a href="https://pk.linkedin.com/">
+              <i class="fa-brands fa-linkedin" style="color: #e6e6e6;"></i>
+            </a>
+          </div>
+            
+          </div>
+          <a class="navbar-brand" href="#"></a>
+          
+        </div>
+      </nav>
+      <!-- Navigation end-->
+
+      <!-- header -->
+      <header>
+        <div class="container-fluid">
+          <img src="./Assets/header-img.jpg" width="1359" height="300" alt="image">
+          <h2 class="math fw-bolder">Subject List</h2>
+
+          <a href="#calculus subject" class="btn2" style="background: rgb(149, 170, 205); transform: translateX(20em);"> Financial Accounting</a>
+          <a href="#linear algebra subject" class="btn2" style="background: rgb(205, 208, 19); transform: translateX(20em);"> Supply Chain Management</a>
+          <a href="#mathlete subject" class="btn2" style="background: rgb(152, 150, 151); transform: translateX(20em);"> Human Resource Management</a> 
+
+        <!-- breadcrumb start-->
+          <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='orange'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+          <ol class="breadcrumb" style="margin-top: -20em;">
+            <li class="breadcrumb-item fw-bold"><a href="./Index.html" >Home</a></li>
+            <li class="breadcrumb-item fw-bold"><a href="./Math.html" >Commerce</a></li>
+            <li class="breadcrumb-item active text-light fw-semibold" aria-current="page">Subject List</li>
+          </ol>
+        </nav><!-- breadcrumb end -->
+    </div>
+ </header> 
+     <!-- header end -->
+
+     <!-- Finacial accounting Subject List start -->
+     <section class="content pt-0 pb-3" id="calculus subject">
+        <h2 class="display-7 fw-bolder" style="margin-top: 13em;">Financial Accounting Subjects List</h2>
+        <p class="lh-2">A Financial Accounting course stream typically covers a range of subjects and topics related to financial reporting, analysis, and accounting principles. Here's a complete list of subjects you might encounter in a financial accounting course stream:</p>
+                <!-- cards -->
+            <div class="card1" style="background: rgba(222, 184, 135, 0.761);">
+                <div class="card-body">
+                  <h5 class="card-title" style="font-size: 13px;">Financial Accounting Fundamentals:</h5>
+                  <p class="card-text">• Introduction to financial accounting<br>
+                    • Accounting principles (GAAP)
+                    • Accounting cycle and financial statements</p>
+                </div>
+            </div>
+
+          <div class="card1" style="background: rgba(95, 158, 160, 0.692);">
+            <div class="card-body">
+              <h5 class="card-title">Accounting Transactions:
+              </h5>
+              <p class="card-text">• Recording and journalizing transactions <br>
+                • T-accounts and ledgers <br>
+                • Trial balance and accounting
+                </p>
+            </div>
+          </div>
+
+          <div class="card1" style="background: rgba(255, 127, 80, 0.7);">
+            <div class="card-body">
+              <h5 class="card-title">Financial Reporting and Analysis:</h5>
+              <p class="card-text">•Financial statement analysis<br>
+                • Ratio analysis <br>
+                • Cash flow analysis
+                </p>
+            </div>
+          </div>
+
+          <div class="card1" style="background: rgba(183, 179, 179, 0.561);">
+            <div class="card-body">
+              <h5 class="card-title">Accounting for Assets:</h5>
+              <p class="card-text">
+                • Depreciation and amortization <br>
+                • Accounting for property, plant, and equipment
+                </p>
+            </div>
+          </div>
+
+          <div class="card1" style="background: rgba(210, 180, 140, 0.769);">
+            <div class="card-body">
+              <h5 class="card-title">Cost Accounting:</h5>
+              <p class="card-text">• Cost classification and allocation<br>
+                • Cost behavior and budgeting<br>
+                • Cost-volume-profit analysis
+                </p>
+            </div>
+          </div>
+
+          <div class="card1" style="background: rgba(0, 128, 128, 0.568);">
+            <div class="card-body">
+              <h5 class="card-title">Forensic Accounting:</h5>
+              <p class="card-text">• Fraud detection and prevention
+                <br>
+                • Investigative techniques<br>
+                • Forensic accounting procedures</p>
+            </div>
+          </div>
+
+          <div class="card1" style="background: rgba(163, 233, 163, 0.588);">
+            <div class="card-body">
+              <h5 class="card-title">Liabilities and Equity:</h5>
+              <p class="card-text">• Accounting for accounts payable and debt<br>
+                • Leases and long-term liabilities</p>
+            </div>
+          </div>
+
+          <div class="card1" style="background: rgba(245, 157, 245, 0.63);">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 12.7px;">Income Statement and Balance Sheet:</h5>
+              <p class="card-text">• Preparing income statements<br>
+                • Preparing balance sheets<br>
+                • Statement of cash flows</p>
+            </div>
+          </div>
+
+<br><br>
+          <p class="p2">These subjects collectively provide a comprehensive understanding of financial accounting principles, reporting, and analysis. The specific subjects and depth of coverage may vary depending on the level and focus of the financial accounting course stream.</p>
+
+          <div class="learn-body container-mw-lg container-fluid">
+            <div class="row">
+                <div class="learn-body__modules col-12">
+                    <div class="modular-section">
+                    <div class="container-mw-lg container-fluid">
+                        <div id="text-module">
+                            <div class="">
+                                <h2 class="display-1 pb-1 mb-4"></h2>
+                                <h4 class="h3 my-2">Financial Accounting !</h4>
+                                <p class="p">
+                                    "Financial Accounting is a fundamental course that provides an introduction to the principles and practices of financial accounting and reporting. This course is essential for students pursuing degrees in accounting, business, and finance. It covers the concepts and techniques used to prepare financial statements and analyze an organization's financial performance."
+                                </p>
+                                <h4 class="h3 my-4">Course Content</h4>
+                            
+                                <ul class="pl-4.5"   style="margin-left: 1em;""><br><br>
+                                    
+                                    <b>
+                                        1. Introduction to Financial Accounting:</b>
+
+                                    <li>
+                                        Overview of financial accounting
+                                    </li>
+                                    <li>
+                                        Accounting principles and standards (GAAP)</li>
+                                    <li>
+                                        Role of financial statements</li>
+                                        <br>
+                                    <b>
+                                        2. Recording Transactions:</b>
+                                    <li> 
+                                        Double-entry accounting system
+                                    </li>
+                                    <li>
+                                        Debits and credits
+                                    </li>
+                                    <li>
+                                        Journal entries and ledger accounts
+                                    </li>
+                                    <br>
+                                    <b>3. The Accounting Cycle:</b>
+                                    <br>
+                                    <li>
+                                        Trial balance and adjustments
+                                    </li>
+                                    <li>
+                                        Preparing financial statements (income statement, balance sheet, statement of cash flows) 
+                                    </li>
+                                    <li>
+                                        Closing the books
+                                    </li>
+                                    <br>
+                                    <b>4. Revenue Recognition:</b>
+                                    <li>
+                                        Principles of revenue recognition
+                                    </li>
+                                    <li>
+                                        Sales, revenue, and expense recognition
+                                    </li>
+                                    <br>
+                                     <b> 5. Accounting for Assets:</b> 
+                                    <li>
+                                        Accounting for cash, accounts receivable, and inventory
+                                    </li>
+                                    <li>
+                                        Depreciation and amortization
+                                    </li>
+                                    <li>
+                                        Accounting for property, plant, and equipment
+                                    </li>
+                                </ul>
+                               
+                                <br>
+
+                                <h5 class="h3 my-2">Duration: <p>Typically one semester, which is approximately 15-16 weeks of instruction.</p> </h5>
+
+                                <h5 class="h3 my-2">Course Materials:</h5>
+                                <p class="p">
+                                    Students may be required to use a financial accounting textbook, access online resources, and utilize accounting software for practice.
+                                </p>
+
+                                <h5 class="h3 my-2">Assessment:</h5>
+                                <p class="p2"> Assessment methods may include homework assignments, quizzes, exams, and possibly a final project or presentation.</p>
+
+                                <h5 class="h3 my-2">Course Outcomes:</h5>
+                                <p class="p2"> Upon successful completion of the Financial Accounting course, students should have a strong foundation in financial accounting principles, be able to prepare financial statements, and understand how to interpret and analyze financial data. This knowledge is valuable for pursuing careers in accounting, finance, and business.</p>
+                        </div>
+                        </div>
+                        <div class="d-flex justify-content-end"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </section>
+        <!-- section end-->
+
+        <!-- section start -->
+
+        <section class="content pt-0 pb-3" id="linear algebra subject">
+            <h2 class="heading display-7 fw-bolder">Supply Chain Management Subjects List</h2>
+            <p class="lh-2">A Supply Chain Management course stream typically covers a wide range of subjects and topics related to the planning, design, and operation of supply chains. Here's a complete list of subjects you might encounter in a supply chain management course stream:</p>
+
+                    <!-- cards -->
+                <div class="card1" style="background: rgba(222, 184, 135, 0.761);">
+                    <div class="card-body">
+                      <h5 class="card-title" >Introduction to SCM:</h5>
+                      <p class="card-text">• Overview of supply chain concepts
+                       <br>
+                        • Key supply chain components <br> • Importance of efficient SCM</p>
+                    </div>
+                </div>
+    
+              <div class="card1" style="background: rgba(95, 158, 160, 0.692);">
+                <div class="card-body">
+                  <h5 class="card-title">Supply Chain Strategy and Design:
+                  </h5>
+                  <p class="card-text">• Supply chain network design
+                   <br>
+                    • Strategic decisions in supply chain management</p>
+                </div>
+              </div>
+    
+              <div class="card1" style="background: rgba(255, 127, 80, 0.7);">
+                <div class="card-body">
+                  <h5 class="card-title">Inventory Management:</h5>
+                  <p class="card-text">• Inventory types and classification
+                     <br>
+                    • Inventory control models and techniques <br>
+                    • Safety stock and reorder point strategies
+                    </p>
+                </div>
+              </div>
+    
+              <div class="card1" style="background: rgba(183, 179, 179, 0.561);">
+                <div class="card-body">
+                  <h5 class="card-title">Global Supply Chain Management:</h5>
+                  <p class="card-text">
+                    • Managing global supply chains
+                     <br>
+                    • Cross-border logistics and regulations <br>
+                    • Global sourcing and risk management
+                    </p>
+                </div>
+              </div>
+    
+              <div class="card1" style="background: rgba(210, 180, 140, 0.769);">
+                <div class="card-body">
+                  <h5 class="card-title" style="font-size: 12.3px;">Case Studies and Practical Applications:</h5>
+                  <p class="card-text">• Simulation exercises and group projects<br>
+                    • Integration of knowledge into practical solutions
+                    </p>
+                </div>
+              </div>
+    
+              <div class="card1" style="background: rgba(0, 128, 128, 0.568);">
+                <div class="card-body">
+                  <h5 class="card-title">Risk Management and Resilience:</h5>
+                  <p class="card-text">• Identifying and mitigating supply chain risks<br>
+                    • Business continuity and SC resilience</p>
+                </div>
+              </div>
+    
+              <div class="card1" style="background: rgba(163, 233, 163, 0.588);">
+                <div class="card-body">
+                  <h5 class="card-title" style="font-size: 13px;">Production and Operations Planning:</h5>
+                  <p class="card-text">• Manufacturing process design<br>
+                    • Lean and just-in-time (JIT) principles<br>
+                    • Production scheduling</p>
+                </div>
+              </div>
+    
+              <div class="card1" style="background: rgba(209, 209, 120, 0.719);">
+                <div class="card-body">
+                  <h5 class="card-title" style="font-size: 12.2px; font-weight: 600;">Procurement and Supplier Management:</h5>
+                  <p class="card-text">• Procurement processes and strategies<br>
+                    • Supplier selection and evaluation<br>
+                    • Supplier relationship management</p>
+                </div>
+              </div>
+              <!-- cards end -->
+            <br><br>
+
+              <p class="p2">These subjects provide students with a comprehensive understanding of supply chain management, covering strategy, planning, and operations within a global context. The specific subjects and depth of coverage may vary depending on the level and focus of the supply chain management course stream.</p>
+
+              <div class="learn-body container-mw-lg container-fluid">
+                <div class="row">
+                    <div class="learn-body__modules col-12">
+                        <div class="modular-section">
+                        <div class="container-mw-lg container-fluid">
+                            <div id="text-module">
+                                <div class="">
+                                    <h2 class="display-1 pb-1 mb-4"></h2>
+                                    <h4 class="h3 my-2">  Supply Chain Management !</h4>
+                                    <p class="p">
+                                        "Supply Chain Management is a comprehensive course designed to equip students with the knowledge and skills needed to understand, plan, and optimize the flow of products, information, and finances across the supply chain. This course covers the strategic, tactical, and operational aspects of managing the end-to-end supply chain in various industries."
+                                    </p>
+                                    <h4 class="h3 my-4">Course Content</h4>
+                                    <ul class="pl-4.5" style="margin-left: 1em;"><br><br>
+                                        <b>1. Introduction to Supply Chain Management:</b>
+                                        <li>
+                                            Overview of supply chain concepts
+                                        </li>
+                                        <li>
+                                            Importance of efficient supply chain management
+                                        <li>
+                                            Key supply chain components</li>
+                                        </li>
+                                        <br>
+                                        <b>2. Supply Chain Strategy and Design:</b> 
+                                        <li> 
+                                            Supply chain network design
+                                        </li>
+                                        <li>
+                                            Strategic decisions in supply chain management
+                                        </li>
+                                        <li>
+                                            Aligning supply chain strategy with business goals
+                                        </li>
+                                        <br>
+                                        
+                                        <b>3. Inventory Management:</b>
+                                        <li>
+                                            Inventory types and classification
+                                        </li>
+                                        <li>
+                                            Inventory control models and techniques
+                                        </li>
+                                        <li>
+                                            Safety stock and reorder point strategies
+                                        </li>
+                                        <br>
+
+                                        <b>4.  Procurement and Supplier Management:</b>
+                                        <li>
+                                            Procurement processes and strategies
+                                        </li>
+                                        <li>
+                                            Supplier selection and evaluation
+                                        </li>
+                                        <li>
+                                            Supplier relationship management 
+                                        </li>
+                                        <br>
+
+                                        <b>5. Logistics and Transportation Management:</b> 
+                                        <li>
+                                            Transportation modes and selection
+                                        </li>
+                                            <li>
+                                                Routing and scheduling
+                                            </li>
+                                            <li>
+                                                Warehouse management and optimization
+                                            </li>
+                                    </ul>
+    
+                                    <br><br>
+    
+                                    <h5 class="h3 my-2">Duration: <p>Typically one semester, which is approximately 15-16 weeks of instruction.</p> </h5>
+    
+                                    <h5 class="h3 my-2">Course Materials:</h5>
+                                    <p class="p">
+                                        Students may be required to use supply chain management textbooks, access online resources, and possibly use supply chain management software for simulations and projects.
+                                    </p>
+    
+                                    <h5 class="h3 my-2">Assessment:</h5>
+                                    <p class="p2">  Assessment methods may include assignments, case studies, exams, group projects, and class participation.</p>
+    
+                                    <h5 class="h3 my-2">Course Outcomes:</h5>
+                                    <p class="p2">  Upon successful completion of the Supply Chain Management course, students should have a solid understanding of supply chain principles and practices. They will be prepared for roles in supply chain management, logistics, and related fields, with the skills to optimize supply chain processes and enhance efficiency.</p>
+                            </div>
+                            </div>
+                            <div class="d-flex justify-content-end"></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </section>
+            <!-- section end-->
+
+            <!-- section start -->
+
+            <section class="content pt-0 pb-3" id="mathlete subject">
+                <h2 class="heading display-7 fw-bolder">Human Resource Management Subjects List</h2>
+                <p class="lh-2">A Human Resource Management course stream typically covers a wide range of subjects and topics related to managing personnel and human resources within an organization. Here's a complete list of subjects you might encounter in a human resource management course stream:</p>
+
+                        <!-- cards -->
+                    <div class="card1" style="background: rgba(222, 184, 135, 0.761);">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-size: 13px; font-weight: 600;">Introduction to HRM:</h5>
+                          <p class="card-text">• Overview of HRM concepts and functions
+                           <br>
+                            • Historical development of HRM<br>
+                            • The role of HR in organizations</p>
+                        </div>
+                    </div>
+        
+                  <div class="card1" style="background: rgba(95, 158, 160, 0.692);">
+                    <div class="card-body">
+                      <h5 class="card-title">Recruitment and Selection:
+                      </h5>
+                      <p class="card-text">• Job analysis and job descriptions
+                       <br>
+                        • Staffing strategies and workforce planning</p>
+                    </div>
+                  </div>
+        
+                  <div class="card1" style="background: rgba(255, 127, 80, 0.7);">
+                    <div class="card-body">
+                      <h5 class="card-title">Training and Development:</h5>
+                      <p class="card-text">• Learning and development strategies
+                         <br>
+                        • Training needs analysis<br>
+                        • Training program design and delivery
+                        </p>
+                    </div>
+                  </div>
+        
+                  <div class="card1" style="background: rgba(183, 179, 179, 0.561);">
+                    <div class="card-body">
+                      <h5 class="card-title">Performance Management:</h5>
+                      <p class="card-text">
+                        • Performance appraisal methods
+                         <br>
+                        • Goal setting and performance evaluation <br>
+                        • Feedback and performance improvement
+                        </p>
+                    </div>
+                  </div>
+        
+                  <div class="card1" style="background: rgba(210, 180, 140, 0.769);">
+                    <div class="card-body">
+                      <h5 class="card-title">Compensation and Benefits:</h5>
+                      <p class="card-text">• Pay structures and salary surveys<br>
+                        • Employee benefits and total rewards<br>
+                        • Compensation philosophy and strategy
+                        </p>
+                    </div>
+                  </div>
+        
+                  <div class="card1" style="background: rgba(0, 128, 128, 0.568);">
+                    <div class="card-body">
+                      <h5 class="card-title">Legal and Ethical Aspects of HRM:</h5>
+                      <p class="card-text">• Employment law and regulations<br>
+                        • Ethical considerations in HRM <br>
+                        • Equal employment opportunity</p>
+                    </div>
+                  </div>
+        
+                  <div class="card1" style="background: rgba(163, 233, 163, 0.588);">
+                    <div class="card-body">
+                      <h5 class="card-title">Diversity and Inclusion:</h5>
+                      <p class="card-text">• Diversity and inclusion strategies<br>
+                        • Addressing bias and discrimination<br>
+                        • Creating an inclusive workplace</p>
+                    </div>
+                  </div>
+        
+                  <div class="card1" style="background: rgba(209, 209, 120, 0.719);">
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 13px; font-weight: 600;">Employee Health and Wellness:</h5>
+                      <p class="card-text">• Occupational safety and health<br>
+                        • Mental health support and wellness initiatives</p>
+                    </div>
+                  </div>
+        
+                  <!-- cards end -->
+                <br><br>
+
+                  <p class="p2">These subjects provide a comprehensive understanding of human resource management, covering all aspects of HR operations, legal considerations, and strategic alignment with organizational goals. The specific subjects and depth of coverage may vary depending on the level and focus of the human resource management course stream.
+                  </p>
+
+                  <div class="learn-body container-mw-lg container-fluid">
+                    <div class="row">
+                        <div class="learn-body__modules col-12">
+                            <div class="modular-section">
+                            <div class="container-mw-lg container-fluid">
+                                <div id="text-module">
+                                    <div class="">
+                                        <h2 class="display-1 pb-1 mb-4"></h2>
+                                        <h4 class="h3 my-2"> Human Resource Management !</h4>
+                                        <p class="p">
+                                            " Human Resource Management (HRM) is a comprehensive course that explores the functions and practices of managing human capital in organizations. This course equips students with the knowledge and skills needed to effectively recruit, develop, and retain employees, and to ensure HR practices align with organizational goals and legal requirements."
+                                        </p>
+                                        <h4 class="h3 my-4">Course Content</h4>
+                                        <ul class="pl-4.5" style="margin-left: 1em;"><br><br>
+
+                                            <b>1. Introduction to HRM:</b>
+                                            <li>
+                                                Overview of HRM and its importance
+                                            </li>
+                                            <li>
+                                                Historical development of HRM
+                                            </li>
+                                            <li>
+                                                HRM roles and responsibilities
+                                            </li>
+                                            <br>
+
+                                            <b>2. Recruitment and Selection:</b> 
+                                            <li> 
+                                                Staffing strategies and workforce planning.
+                                            </li>
+                                            <li>
+                                                Job analysis and job descriptions
+                                            </li>
+                                            <li>
+                                                Recruitment methods and selection processes
+                                            </li>
+                                            <br>
+
+                                            <b>3. Training and Development:</b>
+                                            <li>
+                                                Learning and development strategies
+                                            </li>
+                                            <li>
+                                                Training needs analysis 
+                                            </li>
+                                            <li>
+                                                Training program design and delivery
+                                            </li>
+
+                                            <b>5. Performance Management:</b>
+                                            <li>
+                                                Performance appraisal methods
+                                            </li>
+                                            <li>
+                                                Feedback and performance improvement
+                                            </li>
+                                            <li>
+                                                Goal setting and performance evaluation
+                                            </li>
+<br>
+                                            <b>6. Employee Relations and Engagement:</b>
+                                            <li>
+                                                Employee communication
+                                            </li>
+                                            <li>
+                                                Conflict resolution and employee relations
+                                            </li>
+                                            <li>
+                                                Employee engagement and retention strategies
+                                            </li>
+                                        </ul>
+        
+                                        <br><br>
+        
+                                        <h5 class="h3 my-2">Duration: <p>Typically one semester, which is approximately 15-16 weeks of instruction.</p> </h5>
+        
+                                        <h5 class="h3 my-2">Course Materials:</h5>
+                                        <p class="p">
+                                            Students may be required to use HRM textbooks, online resources, case studies, and HR software.
+                                        </p>
+        
+                                        <h5 class="h3 my-2">Assessment:</h5>
+                                        <p class="p2">  Assessment methods may include assignments, case studies, exams, and class participation.</p>
+        
+                                        <h5 class="h3 my-2">Course Outcomes:</h5>
+                                        <p class="p2"> Upon successful completion of the HRM course, students should have a solid understanding of HR principles and practices. They should be prepared for HR roles in various industries and have the skills to manage human capital effectively.</p>
+                                </div>
+                                </div>
+                                <div class="d-flex justify-content-end"></div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- section end-->
+ 
+                <!-- footer Start -->
+ <footer class="text-center text-lg-start text-muted">
+
+    <!-- Social media Start-->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+    <!-- Left Start -->
+      <div class="Left me-5 d-none d-lg-block fw-semibold">
+        <span>Get connected with us on social networks:</span>
+      </div>
+    <!-- Left End -->
+
+    <!-- Right Start -->
+    <div>
+      <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE" class="me-4 text-reset">
+        <i class="fab fa-facebook-f" style="color: #e6e6e6;"></i>
+      </a>
+      <a href="https://twitter.com/?lang=en" class="me-4 text-reset">
+        <i class="fab fa-twitter" style="color: #e6e6e6;"></i>
+      </a>
+      <a href="https://www.google.com/gmail/about/" class="me-4 text-reset">
+        <i class="fab fa-google" style="color: #e6e6e6;"></i>
+      </a>
+      <a href="https://www.instagram.com/" class="me-4 text-reset">
+        <i class="fab fa-instagram" style="color: #e6e6e6;"></i>
+      </a>
+      <a href="https://pk.linkedin.com/" class="me-4 text-reset">
+        <i class="fab fa-linkedin" style="color: #e6e6e6;"></i>
+      </a>
+    </div>
+    <!-- Right End -->
+
+    </section>
+
+    <!-- Social media End-->
+
+    <!-- Links -->
+    <section class="link">
+      <div class="container text-center text-md-start mt-5">
+
+      <!-- Grid row -->
+      <div class="row mt-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4" style="color: #71b1e1; font-size: 1em;">
+            <div class="footer-logo">
+              <img src="./Assets/Logo/logo e-project-01.png" alt="Your Logo">
+          Excellent Coaching</div>
+          </h6>
+          <p>
+            Welcome to Excellent Coaching - Your Path to Success!
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- Links -->
+          <h6 class="text-uppercase fw-semibold mb-4 ">
+            Explore Our Courses
+          </h6>
+          <p>
+            <a href="./Math.html" class="text-reset">Mathematics</a>
+          </p>
+          <p>
+            <a href="./commerce.html" class="text-reset">Commerce</a>
+          </p>
+          <p>
+            <a href="./science.html" class="text-reset">Science</a>
+          </p>
+          <p>
+            <a href="./english.html" class="text-reset">English</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-semi-bold mb-4">
+            Quick links
+          </h6>
+          <p>
+            <a href="./aboutUs.html" class="text-reset">About Us</a>
+          </p>
+          <p>
+            <a href="./Faculty.html" class="text-reset">Faculty</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">FAQ</a>
+          </p>
+          <p>
+            <a href="./Contact.html" class="text-reset">Contact</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase fw-semi-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i>123 Example Street, City, Country</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Links -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.25); color: #e8e8e8;">
+      © 2019 Copyright:
+      <a class="text-reset fw-bold" href="http://127.0.0.1:5500/Index.html" style="text-decoration: none;">Excelent Coaching</a><p>All rights reserved.</p>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    <!-- footer End -->
+
+
+</body>
+</html>

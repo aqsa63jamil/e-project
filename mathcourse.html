@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links -->
+    <link rel="stylesheet" href="./Assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="./Assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href=./course.css>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Mathematics</title>
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    
+    <nav class="navbar navbar-expand-lg  sticky-top" style="background-color: #3e587c;" >     
+        <div class="container-fluid px-5" >   
+          <img src="./Assets/Logo/logo e-project-01.png" alt="Bootstrap" width="50" height="60">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="./Index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./aboutUs.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./Faculty.html">FACULTY</a>
+              </li>
+              <li class="dropdown"><a class="nav-link scrollto text-light" href="./Courses.html"><span>COURSES</span> <i class="bi bi-chevron-down"></i></a>
+                <ul class="ul">
+                  <li class="dropdown"><a href="./Math.html"><span> Mathematics</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Statistics</a></li>
+                      <li><a href="#">Algebra</a></li>
+                      <li><a href="#">Calculus and Analysis</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./Math.html">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="./commerce.html"><span>Commerce</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Accounting</a></li>
+                      <li><a href="#">Economics</a></li>
+                      <li><a href="#">Finance</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./commerce.html">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="./science.html"><span>Science(Phy,Chem,Bio)</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Environmental Science</a></li>
+                      <li><a href="#">Geology</a></li>
+                      <li><a href="#">BioChemistry</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./science.html">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="./english.html"><span>English Language and Literature<span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Linguistics</a></li>
+                      <li><a href="#">Creative Writing</a></li>
+                      <li><a href="#">History of English Language</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./english.html">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="./computer science.html"><span>Computer Science<span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Software Engineering</a></li>
+                      <li><a href="#">Artificial Intelligence</a></li>
+                      <li><a href="#">Database Management</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./computer science.html">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#"><span>Foreign Languages<span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Spanish</a></li>
+                      <li><a href="#">Arabic</a></li>
+                      <li><a href="#">French</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#"><span>Additional Electives<span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Visual Arts</a></li>
+                      <li><a href="#">Sociology</a></li>
+                      <li><a href="#">Cultural Studies</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">See All</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./Contact.html">CONTACT</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+        <div class="container-fluid justify-content-end" >
+          <div class="d-flex">
+            <div class="p-2">
+              <a href="https://twitter.com/?lang=en">
+              <i class="fa-brands fa-twitter" style="color: #e6e6e6;"></i>
+            </a>
+          </div>
+            <div class="p-2">
+              <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE">
+              <i class="fa-brands fa-facebook" style="color: #e6e6e6;"></i>
+           </a> 
+          </div>
+            <div class="p-2">
+              <a href="https://www.instagram.com/">
+              <i class="fa-brands fa-instagram" style="color: #e6e6e6;"></i>
+            </a>
+            </div>
+            <div class="p-2">
+              <a href="https://www.google.com/gmail/about/">
+              <i class="fa-brands fa-google" style="color: #e6e6e6;"></i>
+            </a>
+          </div>
+            <div class="p-2">
+              <a href="https://pk.linkedin.com/">
+              <i class="fa-brands fa-linkedin" style="color: #e6e6e6;"></i>
+            </a>
+          </div>
+            
+          </div>
+          <a class="navbar-brand" href="#"></a>
+          
+        </div>
+      </nav>
+      <!-- Navigation end-->
+
+      <!-- header -->
+      <header>
+        <div class="container-fluid">
+          <img src="./Assets/header-img.jpg" width="1359" height="300" alt="image">
+          <h2 class="math fw-bolder">Subject List</h2>
+
+          <a href="#calculus subject" class="btn2" style="background: rgb(149, 170, 205);"> Calculus Subject list</a>
+          <a href="#linear algebra subject" class="btn2" style="background: rgb(205, 208, 19);"> Linear Algebra Subject list</a>
+          <a href="#mathlete subject" class="btn2" style="background: rgb(152, 150, 151);"> Mathlete Subject list</a> 
+
+        <!-- breadcrumb start-->
+          <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='orange'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+          <ol class="breadcrumb" style="margin-top: -20em;">
+            <li class="breadcrumb-item fw-bold"><a href="./Index.html" >Home</a></li>
+            <li class="breadcrumb-item fw-bold"><a href="./Math.html" >Mathematics</a></li>
+            <li class="breadcrumb-item active text-light fw-semibold" aria-current="page">Subject List</li>
+          </ol>
+        </nav><!-- breadcrumb end -->
+    </div>
+ </header> 
+     <!-- header end -->
+
+     <!-- Calculus Subject List start -->
+     <section class="content pt-0 pb-3" id="calculus subject">
+        <h2 class="display-7 fw-bolder" style="margin-top: 13em;">Calculus Subjects List</h2>
+        <p class="lh-2">Certainly, a calculus course stream typically covers a range of subjects and topics. Here's a complete list of subjects that you might encounter in a calculus course stream:</p>
+                <!-- cards -->
+            <div class="card1" style="background: rgba(222, 184, 135, 0.761);">
+                <div class="card-body">
+                  <h5 class="card-title">Calculus I:</h5>
+                  <p class="card-text">• Limits and continuity <br>
+                    • Differentiation and applications <br>
+                    • The concept of the derivative</p>
+                </div>
+            </div>
+
+          <div class="card1" style="background: rgba(95, 158, 160, 0.692);">
+            <div class="card-body">
+              <h5 class="card-title">Calculus II:
+              </h5>
+              <p class="card-text">• Integration and techniques of integration <br>
+                • Applications of integration <br>
+                • Sequences and series</p>
+            </div>
+          </div>
+
+          <div class="card1" style="background: rgba(255, 127, 80, 0.7);">
+            <div class="card-body">
+              <h5 class="card-title">Multivariable Calculus:</h5>
+              <p class="card-text">• Partial differentiation <br>
+                • Multiple integrals <br>
+                • Vector calculus
+                </p>
+            </div>
+          </div>
+
+          <div class="card1" style="background: rgba(183, 179, 179, 0.561);">
+            <div class="card-body">
+              <h5 class="card-title">Differential Equations:</h5>
+              <p class="card-text">
+                • Linear and nonlinear <br>
+                • Systems of differential equations <br>
+                • Applications in physics and engineering
+                </p>
+            </div>
+          </div>
+
+          <div class="card1" style="background: rgba(210, 180, 140, 0.769);">
+            <div class="card-body">
+              <h5 class="card-title">Advanced Calculus:</h5>
+              <p class="card-text">• Real number system and completeness<br>
+                • Theory of sequences and series<br>
+                •The Riemann integral
+                </p>
+            </div>
+          </div>
+
+          <div class="card1" style="background: rgba(0, 128, 128, 0.568);">
+            <div class="card-body">
+              <h5 class="card-title">Complex Analysis:</h5>
+              <p class="card-text">• Complex numbers and functions<br>
+                • Analytic functions<br>
+                • Contour integration. Residue theory</p>
+            </div>
+          </div>
+
+          <div class="card1" style="background: rgba(163, 233, 163, 0.588);">
+            <div class="card-body">
+              <h5 class="card-title">Numerical Analysis:</h5>
+              <p class="card-text">• Numerical methods for solving equations<br>
+                • Interpolation and approximation<br>
+                • Numerical differentiation and integration</p>
+            </div>
+          </div>
+
+          <div class="card1" style="background: rgba(245, 157, 245, 0.63);">
+            <div class="card-body">
+              <h5 class="card-title">Mathematical Analysis:</h5>
+              <p class="card-text">• Rigorous foundations of calculus<br>
+                • Concepts of limits, continuity<br>
+                • Real and complex analysis</p>
+            </div>
+          </div>
+
+          
+<br><br>
+          <p class="p2">These subjects collectively provide a comprehensive understanding of calculus and its applications, from the fundamental concepts of differentiation and integration to more advanced topics in mathematical analysis and modeling. The specific subjects and depth of coverage may vary depending on the level and focus of the calculus course stream.</p>
+
+          <div class="learn-body container-mw-lg container-fluid">
+            <div class="row">
+                <div class="learn-body__modules col-12">
+                    <div class="modular-section">
+                    <div class="container-mw-lg container-fluid">
+                        <div id="text-module">
+                            <div class="">
+                                <h2 class="display-1 pb-1 mb-4"></h2>
+                                <h4 class="h3 my-2">Calculus !</h4>
+                                <p class="p">
+                                    "Calculus I is an introductory course that focuses on the fundamental principles of calculus. It is designed to provide students with a solid foundation in the concepts of differentiation and integration. Topics covered in this course include limits, continuity, the derivative, and the integral. Calculus I is a critical prerequisite for more advanced math and science courses.
+                                </p>
+                                <h4 class="h3 my-4">Course Content</h4>
+                                <ul class="pl-4.5"><br>
+                                    <li>
+                                        <b>Limits and continuity: </b>Understanding the concept of a limit, evaluating limits, and exploring the continuity of functions.
+                                    </li>
+                                    <li> 
+                                        <b>The derivative:</b> Calculating derivatives of functions, including power, trigonometric, exponential, and logarithmic functions.
+                                    </li>
+                                    <li>
+                                        <b>Applications of derivatives:</b> Using derivatives to analyze rates of change, solve optimization problems, and understand the behavior of functions.
+                                    </li>
+                                    <li>
+                                       <b>The integral:</b>  Introducing the concept of integration and finding antiderivatives.
+                                    </li>
+                                    <li>
+                                        <b>Applications of integration:</b> Evaluating definite integrals and using integration to calculate areas, volumes, and accumulated quantities.
+                                    </li>
+                                </ul>
+
+                                <br><br>
+
+                                <h5 class="h3 my-2">Duration: <p>Typically one semester, which is approximately 15-16 weeks of instruction.</p> </h5>
+
+                                <h5 class="h3 my-2">Course Materials:</h5>
+                                <p class="p">
+                                    Students may be required to use a calculus textbook, access online resources, and utilize software tools for mathematicalcomputations.
+                                </p>
+
+                                <h5 class="h3 my-2">Assessment:</h5>
+                                <p class="p2"> Assessment methods may include homework assignments, quizzes, exams, and possibly a final project or presentation.</p>
+
+                                <h5 class="h3 my-2">Course Outcomes:</h5>
+                                <p class="p2"> Upon successful completion of Calculus I, students should have a solid understanding of the core principles of calculus, including differentiation and integration. They will be well-prepared to progress to more advanced calculus courses and apply their knowledge to a wide range of real-world problems.</p>
+                        </div>
+                        </div>
+                        <div class="d-flex justify-content-end"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </section>
+        <!-- section end-->
+
+                 <!-- section start -->
+
+                <section class="content pt-0 pb-3" id="linear algebra subject">
+                    <h2 class="heading display-7 fw-bolder">Linear Algebra Subjects List</h2>
+                    <p class="lh-2">A Linear Algebra course stream typically covers a range of subjects and topics. Here's a complete list of subjects that you might encounter in a linear algebra course stream:</p>
+
+                            <!-- cards -->
+                        <div class="card1" style="background: rgba(222, 184, 135, 0.761);">
+                            <div class="card-body">
+                              <h5 class="card-title" style="font-size: 13px; font-weight: 600;">Introduction to Vectors and Matrices:</h5>
+                              <p class="card-text">• Vectors and vector operations
+                               <br>
+                                • Matrices and matrix operations <br>
+                                •  Linear transformations</p>
+                            </div>
+                        </div>
+            
+                      <div class="card1" style="background: rgba(95, 158, 160, 0.692);">
+                        <div class="card-body">
+                          <h5 class="card-title">Vector Spaces:
+                          </h5>
+                          <p class="card-text">• Vector space properties
+                           <br>
+                            • Subspaces<br>
+                            •  Basis and dimension</p>
+                        </div>
+                      </div>
+            
+                      <div class="card1" style="background: rgba(255, 127, 80, 0.7);">
+                        <div class="card-body">
+                          <h5 class="card-title">Systems of Linear Equations:</h5>
+                          <p class="card-text">• Solving systems of linear equations
+                             <br>
+                            • Matrix methods <br>
+                            • Gaussian elimination
+                            </p>
+                        </div>
+                      </div>
+            
+                      <div class="card1" style="background: rgba(183, 179, 179, 0.561);">
+                        <div class="card-body">
+                          <h5 class="card-title">Matrix Algebra:</h5>
+                          <p class="card-text">
+                            • Matrix multiplication
+                             <br>
+                            • Inverse matrices<br>
+                            • Determinants
+                            </p>
+                        </div>
+                      </div>
+            
+                      <div class="card1" style="background: rgba(210, 180, 140, 0.769);">
+                        <div class="card-body">
+                          <h5 class="card-title">Eigenvalues and Eigenvectors:</h5>
+                          <p class="card-text">• Eigenvalue equations<br>
+                            • Diagonalization<br>
+                            • Applications in science and engineering
+                            </p>
+                        </div>
+                      </div>
+            
+                      <div class="card1" style="background: rgba(0, 128, 128, 0.568);">
+                        <div class="card-body">
+                          <h5 class="card-title">Inner Product Spaces:</h5>
+                          <p class="card-text">• Inner products and norms<br>
+                            • Orthogonal bases<br>
+                            • Gram-Schmidt process</p>
+                        </div>
+                      </div>
+            
+                      <div class="card1" style="background: rgba(163, 233, 163, 0.588);">
+                        <div class="card-body">
+                          <h5 class="card-title">Linear Independence and Rank:</h5>
+                          <p class="card-text">• Linear independence of vectors<br>
+                            • Rank of a matrix<br>
+                            • Linear transformations and kernel</p>
+                        </div>
+                      </div>
+            
+                      <div class="card1" style="background: rgba(209, 209, 120, 0.719);">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-size: 13px; font-weight: 600;">Applications in Computer Graphics:</h5>
+                          <p class="card-text">• 2D and 3D transformations <br>
+                            • Rotations and scaling <br>
+                            • Computer graphics applications </p>
+                        </div>
+                      </div>
+            
+                    
+                      <!-- cards end -->
+                    <br><br>
+
+                      <p class="p2">These subjects collectively provide a comprehensive understanding of linear algebra and its applications, from foundational concepts like vectors and matrices to advanced topics used in fields such as computer graphics, data science, and physics. The specific subjects and depth of coverage may vary depending on the level and focus of the linear algebra course stream.</p>
+
+                      <div class="learn-body container-mw-lg container-fluid">
+                        <div class="row">
+                            <div class="learn-body__modules col-12">
+                                <div class="modular-section">
+                                <div class="container-mw-lg container-fluid">
+                                    <div id="text-module">
+                                        <div class="">
+                                            <h2 class="display-1 pb-1 mb-4"></h2>
+                                            <h4 class="h3 my-2"> Linear Algebra !</h4>
+                                            <p class="p">
+                                                "Linear Algebra is a fundamental course in mathematics that explores the properties and applications of vectors and matrices. This course is essential for students pursuing degrees in mathematics, science, engineering, computer science, and various other fields. Linear Algebra provides a solid understanding of linear transformations, systems of linear equations, and their practical uses."
+                                            </p>
+                                            <h4 class="h3 my-4">Course Content</h4>
+                                            <ul class="pl-4.5"><br>
+                                                <li>
+                                                   <b> Vector spaces:</b> An introduction to vector spaces, subspaces, and their properties.
+                                                </li>
+                                                <li> 
+                                                   <b>Systems of linear equations:</b>  Solving systems of linear equations using matrix methods and Gaussian elimination.
+                                                </li>
+                                                <li>
+                                                    <b>Matrix operations:</b> Addition, scalar multiplication, matrix multiplication, and inverse matrices.
+                                                </li>
+                                                <li>
+                                                   <b> Determinants</b>: Calculating determinants and their applications in solving systems of linear equations.
+                                                </li>
+                                                <li>
+                                                    <b>Eigenvalues and eigenvectors:</b> Understanding eigenvalues and eigenvectors, diagonalization of matrices.
+                                                </li>
+                                            </ul>
+            
+                                            <br><br>
+            
+                                            <h5 class="h3 my-2">Duration: <p>Typically one semester, which is approximately 15-16 weeks of instruction.</p> </h5>
+            
+                                            <h5 class="h3 my-2">Course Materials:</h5>
+                                            <p class="p">
+                                                Students may be required to use a linear algebra textbook, access online resources, and utilize mathematical software for calculations and visualizations.
+                                            </p>
+            
+                                            <h5 class="h3 my-2">Assessment:</h5>
+                                            <p class="p2"> Assessment methods may include homework assignments, quizzes, exams, and possibly a final project or presentation.</p>
+            
+                                            <h5 class="h3 my-2">Course Outcomes:</h5>
+                                            <p class="p2"> Upon successful completion of the Linear Algebra course, students should have a strong foundation in linear algebraic concepts, matrix operations, and the ability to apply these concepts to real-world problems. This knowledge is valuable for further studies in advanced mathematics, engineering, computer science, and physics.</p>
+                                    </div>
+                                    </div>
+                                    <div class="d-flex justify-content-end"></div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </div>
+                    </section>
+                    <!-- section end-->
+
+                 <!-- section start -->
+
+                <section class="content pt-0 pb-3" id="mathlete subject">
+                    <h2 class="heading display-7 fw-bolder">Mathlete Subjects List</h2>
+                    <p class="lh-2">A Mathlete course stream typically covers a range of subjects and topics related to advanced problem-solving and competitive mathematics. Here's a complete list of subjects and areas of mathematics that you might encounter in a Mathlete course stream:</p>
+
+                            <!-- cards -->
+                        <div class="card1" style="background: rgba(222, 184, 135, 0.761);">
+                            <div class="card-body">
+                              <h5 class="card-title" style="font-size: 13px; font-weight: 600;">Number Theory:</h5>
+                              <p class="card-text">• Properties of integers
+                               <br>
+                                •Divisibility and prime numbers <br>
+                                • Modular arithmetic</p>
+                            </div>
+                        </div>
+            
+                      <div class="card1" style="background: rgba(95, 158, 160, 0.692);">
+                        <div class="card-body">
+                          <h5 class="card-title">Combinatorics:
+                          </h5>
+                          <p class="card-text">• Counting principles
+                           <br>
+                            • Graph theory<br>
+                            • Combinatorial proofs</p>
+                        </div>
+                      </div>
+            
+                      <div class="card1" style="background: rgba(255, 127, 80, 0.7);">
+                        <div class="card-body">
+                          <h5 class="card-title">Geometry:</h5>
+                          <p class="card-text">• Geometric transformations
+                             <br>
+                            • Advanced geometric theorems<br>
+                            • Euclidean geometry
+                            </p>
+                        </div>
+                      </div>
+            
+                      <div class="card1" style="background: rgba(183, 179, 179, 0.561);">
+                        <div class="card-body">
+                          <h5 class="card-title">Algebra:</h5>
+                          <p class="card-text">
+                            • Advanced algebraic equations
+                             <br>
+                            • Complex numbers<br>
+                            • Group theory
+                            </p>
+                        </div>
+                      </div>
+            
+                      <div class="card1" style="background: rgba(210, 180, 140, 0.769);">
+                        <div class="card-body">
+                          <h5 class="card-title">Probability and Statistics:</h5>
+                          <p class="card-text">• Probability theory<br>
+                            • Random variables<br>
+                            • Statistics and data analysis
+                            </p>
+                        </div>
+                      </div>
+            
+                      <div class="card1" style="background: rgba(0, 128, 128, 0.568);">
+                        <div class="card-body">
+                          <h5 class="card-title">Advanced Calculus:</h5>
+                          <p class="card-text">• Sequences and series<br>
+                            • Convergence and limits<br>
+                            • Differential equations</p>
+                        </div>
+                      </div>
+            
+                      <div class="card1" style="background: rgba(163, 233, 163, 0.588);">
+                        <div class="card-body">
+                          <h5 class="card-title">Linear Algebra:</h5>
+                          <p class="card-text">• Vector spaces<br>
+                            • Matrix operations<br>
+                            • Linear transformations</p>
+                        </div>
+                      </div>
+            
+                      <div class="card1" style="background: rgba(209, 209, 120, 0.719);">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-size: 13px; font-weight: 600;">Mathematical Logic and Proofs:</h5>
+                          <p class="card-text">• Propositional logic<br>
+                            • Predicate logic<br>
+                            • Proof techniques </p>
+                        </div>
+                      </div>
+                      <!-- cards end -->
+                    <br><br>
+
+                      <p class="p2">These subjects collectively provide a comprehensive understanding of advanced mathematics and problem-solving, preparing students to excel in math competitions, tackle complex mathematical problems, and explore advanced mathematical concepts. The specific subjects and depth of coverage may vary depending on the level and focus of the Mathlete course stream.
+                      </p>
+
+                      <div class="learn-body container-mw-lg container-fluid">
+                        <div class="row">
+                            <div class="learn-body__modules col-12">
+                                <div class="modular-section">
+                                <div class="container-mw-lg container-fluid">
+                                    <div id="text-module">
+                                        <div class="">
+                                            <h2 class="display-1 pb-1 mb-4"></h2>
+                                            <h4 class="h3 my-2"> Mathlete: Advanced Problem Solving !</h4>
+                                            <p class="p">
+                                                "The Mathlete course is designed for students with a strong interest in competitive mathematics and advanced problem-solving. It goes beyond traditional math coursework and focuses on tackling challenging mathematical problems, exploring various branches of mathematics, and participating in math competitions."
+                                            </p>
+                                            <h4 class="h3 my-4">Course Content</h4>
+                                            <ul class="pl-4.5"><br>
+                                                <li>
+                                                    <b>Number Theory:</b> Exploring properties of integers, prime numbers, divisibility, and modular arithmetic.
+                                                </li>
+                                                <li> 
+                                                    <b>Combinatorics:</b> Studying counting techniques, permutations, combinations, and graph theory.
+                                                </li>
+                                                <li>
+                                                    <b>Geometry:</b> Investigating Euclidean geometry, geometric transformations, and advanced geometric theorems.
+                                                </li>
+                                                <li>
+                                                    <b>Algebra:</b> Solving advanced algebraic equations, inequalities, and working with complex numbers.
+                                                </li>
+                                                <li>
+                                                    <b>Probability and Statistics:</b> Analyzing probability, random variables, and statistical data.
+                                                </li>
+                                            </ul>
+            
+                                            <br><br>
+            
+                                            <h5 class="h3 my-2">Duration: <p>Typically a full academic year, consisting of two semesters or approximately 30-32 weeks of instruction.</p> </h5>
+            
+                                            <h5 class="h3 my-2">Course Materials:</h5>
+                                            <p class="p">
+                                                Students may use textbooks and problem-solving resources specific to each branch of mathematics. Access to math competition materials and past problems may also be provided.
+                                            </p>
+            
+                                            <h5 class="h3 my-2">Assessment:</h5>
+                                            <p class="p2">  Assessment in a Mathlete course may primarily focus on problem-solving assignments, participation in math competitions, and performance on challenging math problems. It may involve less traditional exams and more collaborative problem-solving.</p>
+            
+                                            <h5 class="h3 my-2">Course Outcomes:</h5>
+                                            <p class="p2"> Upon successful completion of the Mathlete course, students will have enhanced problem-solving abilities, a deeper understanding of advanced mathematical concepts, and the experience of participating in math competitions. These skills and experiences can be valuable for pursuing further studies in mathematics, science, and engineering.</p>
+                                    </div>
+                                    </div>
+                                    <div class="d-flex justify-content-end"></div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </div>
+                    </section>
+                    <!-- section end-->
+     
+                    <!-- footer Start -->
+     <footer class="text-center text-lg-start text-muted">
+
+        <!-- Social media Start-->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  
+        <!-- Left Start -->
+          <div class="Left me-5 d-none d-lg-block fw-semibold">
+            <span>Get connected with us on social networks:</span>
+          </div>
+        <!-- Left End -->
+  
+        <!-- Right Start -->
+        <div>
+          <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE" class="me-4 text-reset">
+            <i class="fab fa-facebook-f" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://twitter.com/?lang=en" class="me-4 text-reset">
+            <i class="fab fa-twitter" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://www.google.com/gmail/about/" class="me-4 text-reset">
+            <i class="fab fa-google" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://www.instagram.com/" class="me-4 text-reset">
+            <i class="fab fa-instagram" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://pk.linkedin.com/" class="me-4 text-reset">
+            <i class="fab fa-linkedin" style="color: #e6e6e6;"></i>
+          </a>
+        </div>
+        <!-- Right End -->
+  
+        </section>
+  
+        <!-- Social media End-->
+  
+        <!-- Links -->
+        <section class="link">
+          <div class="container text-center text-md-start mt-5">
+  
+          <!-- Grid row -->
+          <div class="row mt-3">
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+  
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4" style="color: #71b1e1; font-size: 1em;">
+                <div class="footer-logo">
+                  <img src="./Assets/Logo/logo e-project-01.png" alt="Your Logo">
+              Excellent Coaching</div>
+              </h6>
+              <p>
+                Welcome to Excellent Coaching - Your Path to Success!
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+              <h6 class="text-uppercase fw-semibold mb-4 ">
+                Explore Our Courses
+              </h6>
+              <p>
+                <a href="./Math.html" class="text-reset">Mathematics</a>
+              </p>
+              <p>
+                <a href="./commerce.html" class="text-reset">Commerce</a>
+              </p>
+              <p>
+                <a href="./science.html" class="text-reset">Science</a>
+              </p>
+              <p>
+                <a href="./english.html" class="text-reset">English</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+                <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-semi-bold mb-4">
+            Quick links
+          </h6>
+          <p>
+            <a href="./aboutUs.html" class="text-reset">About Us</a>
+          </p>
+          <p>
+            <a href="./Faculty.html" class="text-reset">Faculty</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">FAQ</a>
+          </p>
+          <p>
+            <a href="./Contact.html" class="text-reset">Contact</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+              <!-- Links -->
+              <h6 class="text-uppercase fw-semi-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i>123 Example Street, City, Country</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+  
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Links -->
+  
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.25); color: #e8e8e8;">
+          © 2019 Copyright:
+          <a class="text-reset fw-bold" href="http://127.0.0.1:5500/Index.html" style="text-decoration: none;">Excelent Coaching</a><p>All rights reserved.</p>
+        </div>
+        <!-- Copyright -->
+      </footer>
+        <!-- footer End -->
+
+
+</body>
+</html>

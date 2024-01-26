@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links -->
+    <link rel="stylesheet" href="./Assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="./Assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./course.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Science</title>
+
+</head>
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg  sticky-top" style="background-color: #3e587c;" >     
+      <div class="container-fluid px-5" >   
+        <img src="./Assets/Logo/logo e-project-01.png" alt="Bootstrap" width="50" height="60">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="./Index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./aboutUs.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./Faculty.html">FACULTY</a>
+            </li>
+            <li class="dropdown"><a class="nav-link scrollto text-light" href="./Courses.html"><span>COURSES</span> <i class="bi bi-chevron-down"></i></a>
+              <ul class="ul">
+                <li class="dropdown"><a href="./Math.html"><span> Mathematics</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Statistics</a></li>
+                    <li><a href="#">Algebra</a></li>
+                    <li><a href="#">Calculus and Analysis</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./Math.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="./commerce.html"><span>Commerce</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Accounting</a></li>
+                    <li><a href="#">Economics</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./commerce.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="./science.html"><span>Science(Phy,Chem,Bio)</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Environmental Science</a></li>
+                    <li><a href="#">Geology</a></li>
+                    <li><a href="#">BioChemistry</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./science.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="./english.html"><span>English Language and Literature<span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Linguistics</a></li>
+                    <li><a href="#">Creative Writing</a></li>
+                    <li><a href="#">History of English Language</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./english.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="./computer science.html"><span>Computer Science<span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Software Engineering</a></li>
+                    <li><a href="#">Artificial Intelligence</a></li>
+                    <li><a href="#">Database Management</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./computer science.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>Foreign Languages<span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Spanish</a></li>
+                    <li><a href="#">Arabic</a></li>
+                    <li><a href="#">French</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>Additional Electives<span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Visual Arts</a></li>
+                    <li><a href="#">Sociology</a></li>
+                    <li><a href="#">Cultural Studies</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">See All</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./Contact.html">CONTACT</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+      <div class="container-fluid justify-content-end" >
+        <div class="d-flex">
+          <div class="p-2">
+              <a href="https://twitter.com/?lang=en">
+              <i class="fa-brands fa-twitter" style="color: #e6e6e6;"></i>
+            </a>
+          </div>
+          <div class="p-2">
+            <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE">
+            <i class="fa-brands fa-facebook" style="color: #e6e6e6;"></i>
+          </a> 
+          </div>
+          <div class="p-2">
+            <a href="https://www.instagram.com/">
+            <i class="fa-brands fa-instagram" style="color: #e6e6e6;"></i>
+          </a>
+          </div>
+          <div class="p-2">
+            <a href="https://www.google.com/gmail/about/">
+            <i class="fa-brands fa-google" style="color: #e6e6e6;"></i>
+          </a>
+        </div>
+        <div class="p-2">
+          <a href="https://pk.linkedin.com/">
+          <i class="fa-brands fa-linkedin" style="color: #e6e6e6;"></i>
+        </a>
+      </div>
+
+      </div>
+          <a class="navbar-brand" href="#"></a>
+          
+      </div>
+    </nav>
+    <!-- Navigation end-->
+
+    <!-- header -->
+    <header>
+        <div class="container-fluid">
+          <img src="./Assets/header-img.jpg" alt="image" width="1359" height="300">
+          <h2 class="com fw-bolder">Learn Science With Us</h2>
+
+          <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='orange'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item fw-bold"><a href="./Index.html" >Home</a></li>
+            <li class="breadcrumb-item fw-bold"><a href="./Courses.html" >Courses</a></li>
+            <li class="breadcrumb-item active text-light fw-semibold" aria-current="page">Science</li>
+          </ol>
+        </nav>
+        </div>
+     </header> 
+     <!-- header end -->
+
+     <!-- main start -->
+     <main>
+        <div id="left"> 
+            <img class="side-pic position-relative optanon-category-C0001" src="./Assets/card img/science-side-img.jpeg" loading="lazy" alt="side-pic" data-ot-ignore>
+    
+            <h3>Science
+                Overview:</h3>
+                <p>• Our science courses encompass physics, chemistry, and biology, ensuring a well-rounded understanding of the natural world.
+                    <br><br>
+                • These courses are essential for students pursuing careers in medicine, engineering, or the sciences.</p>
+                <br>
+                <h3>Key Features:</h3>
+                <p class="p2">• Handson Experiments (where applicable) <br>
+                • In-depth Understanding of Concepts<br>
+                • Practical Application <br>
+                • Exam specific Training
+                </p>
+        </div>
+
+        <div id="right">
+            <h2 class="Co display-6 fw-bolder text-uppercase text-center">Science</h2>
+            <p class="p2">Science is the key to understanding the natural world, unlocking its mysteries, and driving progress. At Excellent Coaching, we are passionate about the pursuit of scientific knowledge and its profound impact on our lives. Our science subjects cover a diverse range of disciplines, from physics to chemistry and biology, to inspire students to explore, question, and innovate.</p>
+            </br></br>
+
+            <h4>Why Study Science with Us?</h4>
+                <br>
+                <h5>Comprehensive Curriculum:</h5> 
+                <p>Our science curriculum is designed to cater to the curious minds of all ages. We offer courses that span physics, chemistry, biology, and more, allowing students to delve into their areas of interest.</p>
+                <br>
+                <h5>Experienced Instructors:</h5>
+                <p>Our instructors are seasoned experts in their respective scientific fields. They are committed to making complex concepts accessible, fostering curiosity, and nurturing critical thinking.</p>
+                <br>
+                <h5>Hands-On Learning:</h5> <p>Science is best learned through experimentation and exploration. Our courses emphasize hands-on experiments and practical application to develop a deep understanding of scientific principles.</p>
+                <br>
+                <h5>Career Opportunities:</h5> <p>A strong foundation in science opens doors to a myriad of career opportunities, from research and healthcare to engineering and environmental science. Our courses prepare students for these exciting paths.
+                </p>
+                <br>
+                <p>Studying science with us means not only gaining a solid grasp of scientific concepts but also nurturing a lifelong appreciation for the wonders of the natural world. Whether you're pursuing a career in a scientific field or simply wish to deepen your scientific knowledge, our courses offer a pathway to discovery and innovation.</p>
+        </div>
+     </main>
+     <!-- main end -->
+
+     <!-- courses-sec Start -->
+     <section class="course1 pt-0 pb-3" style="background-color: #e1dddb;">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center d-flex flex-row">
+                <div class="col-xxl-8 w-100">
+                    <div class="text-center1 my-5">
+                        <h2 class="display-7 fw-bolder"><span class="text-uppercase ">Courses</span></h2><br><br>
+                        <p class="para">Welcome to our Science Department, where we celebrate the wonder and curiosity of the natural world. Science is a gateway to understanding the universe, from the tiniest particles to the vastness of space. Our curriculum is designed to explore the diverse disciplines within science. Explore our course offerings below:</p><br><br>
+                        <h3 class="display-4 fw-bolder">Featured Courses</h3>
+                        <div class="container-fluid d-flex flex-row justify-content-around text-center">
+                            
+                          <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                            <img src="./Assets/card img/lab equipments.jpeg" class="card-img-top rounded-top-4" alt="maths">
+                            <div class="card-body1 shadow rounded-bottom-4" style="background-color: #f0f0f0; height:0.2em;">
+                              <h5 class="card-title1 fw-semibold ">Basics Uses Of Lab Equipments </h5>
+                              <h6>2 months</h6>
+                              <p class="card-text1 text-dark">This course is designed for individuals interested in gaining proficiency in handling common laboratory equipment and tools.</p>
+                              <br>   
+                              <a href="#" download="subject detail" class="btn">Download Info</a>
+                              <a href="./Assets/Sub.File/science course fee 1.pdf" download="fee info" class="btn">Fee Details</a>
+                            </div>
+                          </div>
+  
+                          <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                            <img src="./Assets/card img/Environmental Science.jpeg" class="card-img-top rounded-top-4" alt="maths">
+                            <div class="card-body1 shadow rounded-bottom-4" style="background-color: #dfdfdf; height: 0em;">
+                              <h5 class="card-title1 fw-semibold">Environmental Science</h5>
+                              <h6>1 year</h6>
+                              <p class="card-text1 text-dark"> Dive into the world of life sciences, studying everything from genetics and ecology to environmental science and conservation.</p>
+                              <br>
+                              <a href="#" download="subject detail"         class="btn">Download Info</a>
+                              <a href="./Assets/Sub.File/science course fee 2.pdf" download="fee info" class="btn">Fee Details</a>
+                            </div>
+                          </div>
+  
+                          <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                            <img src="./Assets/card img/scientific computing.jpg" class="card-img-top rounded-top-4" alt="maths">
+                            <div class="card-body1 shadow rounded-bottom-4" style="background-color: #e1e1e1; height: 0em;">
+                              <h5 class="card-title1 fw-semibold">Scientific Computing</h5>
+                              <h6>6 months</h6>
+                              <p class="card-text1 text-dark"> In the age of data, these courses equip students with skills in data analysis  and scientific computing.</p>
+  <br>                        <a href="#"         class="btn">Download Info</a>
+                            <a href="./Assets/Sub.File/science course fee 3.pdf" class="btn">Fee Details</a>                      
+                            </div>                 
+                          </div>                    
+                         </div>
+                         <br>
+                         <br>
+  
+                         <a href="./sciencecourse.html" class="btn2">View Details</a> 
+                        <br> 
+                        <br>    
+                        <br>   
+  
+                        <p class="para1"><span>Enroll Today:</span> Explore these courses and embark on a journey of scientific exploration and inquiry.</p>
+  
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <!-- course-sec End -->
+
+           <!-- content start-->
+        <section class="content pt-0 pb-3">
+            <div class="related-topics bg-light-300 py-5">
+                <div class="container-mw-lg container-fluid">
+                    <div class="d-flex justify-content-between pb-4">
+                        <h2>Related Topics</h2>
+                    </div>
+  
+                    <div class="related-topics-list d-flex">
+                      <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Geology</a>
+                      <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">BioChemistry</a>    
+                      <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Mathematics</a>
+                      <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Chemistry</a>
+                      <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Physics</a>
+                      <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Biology</a>
+                      <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Environmental Science</a>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="learn-body container-mw-lg container-fluid">
+              <div class="row">
+                  <div class="learn-body__modules col-12">
+                      <div class="modular-section">
+                      <div class="container-mw-lg container-fluid">
+                          <div id="text-module">
+                            <div class="">
+                              <h2 class="display-1 pb-1 mb-4"></h2>
+                                <h4 class="h3 my-4">Why is Science Important?</h4>
+                                  <p class="p">
+                                    "Science is fundamentally important to our understanding of the world and the advancement of human society. At its core, science is a systematic and evidence-based approach to exploring the natural world, enabling us to comprehend the complex phenomena that shape our existence. It provides a universal language for deciphering the laws of nature, from the microscopic realm of subatomic particles to the cosmic expanses of the universe.
+
+                                    One of the paramount reasons for the significance of science lies in its role as a problem-solving tool. Science equips us with the critical thinking skills needed to analyze complex issues, break them down into manageable components, and develop effective solutions. These skills are not limited to scientific research but extend to various aspects of life, from healthcare and environmental protection to technological innovation and industry optimization.
+                                    
+                                    The link between science and technology is another pivotal aspect of its importance. Science is the driving force behind technological progress, leading to innovations that transform how we live and work. It fuels advancements in medicine, communication, transportation, and countless other fields, improving the quality of life and fostering economic growth. Science constantly pushes the boundaries of what is possible, opening up new frontiers of discovery and improving our capabilities.
+                                        
+                                    </p>
+                                    <p class="p">In the realm of informed decision-making, science plays an irreplaceable role. It provides evidence-based information that is crucial for policymakers, businesses, and individuals when addressing complex issues. From public health and environmental conservation to safety standards and disaster preparedness, science offers a solid foundation for making informed choices that have far-reaching consequences.
+
+                                    Science is also integral to global challenges and collective progress. It offers solutions to some of the most pressing issues facing humanity, including pandemics, food security, energy sustainability, and climate change. Its collaborative and multidisciplinary nature encourages international cooperation, bringing together experts from diverse backgrounds to tackle shared challenges.
+                                        
+                                    Moreover, science enhances our everyday life in numerous ways. From clean water and sanitation to electricity and the internet, it underpins the infrastructure that supports modern society. Scientific innovations have transformed how we live and interact with the world, making our lives more comfortable, efficient, and connected.
+                                        
+                                    In sum, science is not merely a subject of study but a way of thinking, a method of inquiry, and a source of progress. It empowers us with knowledge, problem-solving capabilities, and the ability to shape the future. Science's importance extends to virtually every aspect of human existence, making it an indispensable part of our lives and a driving force for the betterment of our world."
+                                    </p>
+  
+                                    <h4 class="h3 my-4">Science Courses And Curriculum</h4>
+                                    <p class="p">
+                                            
+                                    "Science courses and curriculum are designed to provide a structured and comprehensive education in various scientific disciplines. Here is an overview of common science courses and their curriculum:"
+                                    </p>
+  
+                                    <p class="p2">Build your science skills with courses covering:</p>
+                                      <ul class="pl-4.5">
+                                        <li>
+                                          Geology
+                                        </li>
+                                        <li> 
+                                          Astronomy
+                                        </li>
+                                        <li>
+                                         Microbiology
+                                        </li>
+                                        <li>
+                                          Data Science
+                                        </li>
+                                        <li>
+                                          Marine Biology
+                                        </li>
+                                      </ul>
+                                  
+                                    <br>
+                                    <p class="p">
+                                      Or, take speciialized science courses designed for BioChemistry, geology, and Introduction to physics professionals that explore topics like biotechnology,conservation, and astrophysics.
+                                    </p>
+                                  </div>
+                                    <p class="p"></p>
+                                  </div>
+                                <div class="d-flex justify-content-end"></div>
+                            </div>
+                        </div>
+                        </div>
+  
+                        <div class="modular-section">
+                          <div class="container-mw-lg container-fluid">
+                            <div class="text-module">
+                              <h2 class="display-1 pb-1 mb-4"></h2>
+                                <h3 class=" my-4">Careers In Science</h3>
+                                  <p class="p">A career in science is a journey of exploration, discovery, and innovation. It offers a diverse array of opportunities for those who are passionate about understanding the natural world and solving complex problems. Here are some common career paths in science:</p>
+                                  
+                                  <ul class="pl-4.5">
+                                    <li>
+                                      Research Scientist
+                                    </li>
+                                    <li>
+                                      Chemist
+                                    </li>
+                                    <li>
+                                      Geologist
+                                    </li>
+                                    <li>
+                                      Data Scientist
+                                    </li>
+                                    <li>
+                                      Astronomer
+                                    </li>
+                                    <li>
+                                      Physicist
+                                    </li>
+                                  </ul>
+                                  <br>
+                                  <p class="p">
+                                    But, a science education is beneficial for people who aspire to careers in many different fields, from scientist to geologist. Build your science skills and explore how excellent coaching courses can help you get started on your learning journey today.
+                                  </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </section>
+
+             <!-- footer Start -->
+     <footer class="text-center text-lg-start text-muted">
+
+        <!-- Social media Start-->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  
+        <!-- Left Start -->
+          <div class="Left me-5 d-none d-lg-block fw-semibold">
+            <span>Get connected with us on social networks:</span>
+          </div>
+        <!-- Left End -->
+  
+        <!-- Right Start -->
+        <div>
+          <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE" class="me-4 text-reset">
+            <i class="fab fa-facebook-f" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://twitter.com/?lang=en" class="me-4 text-reset">
+            <i class="fab fa-twitter" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://www.google.com/gmail/about/" class="me-4 text-reset">
+            <i class="fab fa-google" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://www.instagram.com/" class="me-4 text-reset">
+            <i class="fab fa-instagram" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://pk.linkedin.com/" class="me-4 text-reset">
+            <i class="fab fa-linkedin" style="color: #e6e6e6;"></i>
+          </a>
+        </div>
+        <!-- Right End -->
+  
+        </section>
+  
+        <!-- Social media End-->
+  
+        <!-- Links -->
+        <section class="link">
+          <div class="container text-center text-md-start mt-5">
+  
+          <!-- Grid row -->
+          <div class="row mt-3">
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+  
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4" style="color: #71b1e1; font-size: 1em;">
+                <div class="footer-logo">
+                  <img src="./Assets/Logo/logo e-project-01.png" alt="Your Logo">
+              Excellent Coaching</div>
+              </h6>
+              <p>
+                Welcome to Excellent Coaching - Your Path to Success!
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+              <h6 class="text-uppercase fw-semibold mb-4 ">
+                Explore Our Courses
+              </h6>
+              <p>
+                <a href="./Math.html" class="text-reset">Mathematics</a>
+              </p>
+              <p>
+                <a href="./commerce.html" class="text-reset">Commerce</a>
+              </p>
+              <p>
+                <a href="./science.html" class="text-reset">Science</a>
+              </p>
+              <p>
+                <a href="./english.html" class="text-reset">English</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+                <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-semi-bold mb-4">
+            Quick links
+          </h6>
+          <p>
+            <a href="./aboutUs.html" class="text-reset">About Us</a>
+          </p>
+          <p>
+            <a href="./Faculty.html" class="text-reset">Faculty</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">FAQ</a>
+          </p>
+          <p>
+            <a href="./Contact.html" class="text-reset">Contact</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+              <!-- Links -->
+              <h6 class="text-uppercase fw-semi-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i>123 Example Street, City, Country</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+  
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Links -->
+  
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.25); color: #e8e8e8;">
+          © 2019 Copyright:
+          <a class="text-reset fw-bold" href="http://127.0.0.1:5500/Index.html" style="text-decoration: none;">Excelent Coaching</a><p>All rights reserved.</p>
+        </div>
+        <!-- Copyright -->
+      </footer>
+        <!-- footer End -->
+ 
+</body>
+</html>     

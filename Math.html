@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links -->
+    <link rel="stylesheet" href="./Assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="./Assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href=./course.css>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Mathematics</title>
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    
+        <nav class="navbar navbar-expand-lg  sticky-top" style="background-color: #3e587c;" >     
+          <div class="container-fluid px-5" >   
+            <img src="./Assets/Logo/logo e-project-01.png" alt="Bootstrap" width="50" height="60">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="./Index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="./aboutUs.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="./Faculty.html">FACULTY</a>
+                </li>
+                <li class="dropdown"><a class="nav-link scrollto text-light" href="./Courses.html"><span>COURSES</span> <i class="bi bi-chevron-down"></i></a>
+                  <ul class="ul">
+                    <li class="dropdown"><a href="./Math.html"><span> Mathematics</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Statistics</a></li>
+                        <li><a href="#">Algebra</a></li>
+                        <li><a href="#">Calculus and Analysis</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./Math.html">See All</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="./commerce.html"><span>Commerce</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Accounting</a></li>
+                        <li><a href="#">Economics</a></li>
+                        <li><a href="#">Finance</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./commerce.html">See All</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="./science.html"><span>Science(Phy,Chem,Bio)</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Environmental Science</a></li>
+                        <li><a href="#">Geology</a></li>
+                        <li><a href="#">BioChemistry</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./science.html">See All</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="./english.html"><span>English Language and Literature<span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Linguistics</a></li>
+                        <li><a href="#">Creative Writing</a></li>
+                        <li><a href="#">History of English Language</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./english.html">See All</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="./computer science.html"><span>Computer Science<span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Software Engineering</a></li>
+                        <li><a href="#">Artificial Intelligence</a></li>
+                        <li><a href="#">Database Management</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./computer science.html">See All</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>Foreign Languages<span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Spanish</a></li>
+                        <li><a href="#">Arabic</a></li>
+                        <li><a href="#">French</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">See All</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>Additional Electives<span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Visual Arts</a></li>
+                        <li><a href="#">Sociology</a></li>
+                        <li><a href="#">Cultural Studies</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">See All</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="./Contact.html">CONTACT</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+          <div class="container-fluid justify-content-end" >
+            <div class="d-flex">
+              <div class="p-2">
+                <a href="https://twitter.com/?lang=en">
+                <i class="fa-brands fa-twitter" style="color: #e6e6e6;"></i>
+              </a>
+            </div>
+              <div class="p-2">
+                <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE">
+                <i class="fa-brands fa-facebook" style="color: #e6e6e6;"></i>
+             </a> 
+            </div>
+              <div class="p-2">
+                <a href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram" style="color: #e6e6e6;"></i>
+              </a>
+              </div>
+              <div class="p-2">
+                <a href="https://www.google.com/gmail/about/">
+                <i class="fa-brands fa-google" style="color: #e6e6e6;"></i>
+              </a>
+            </div>
+              <div class="p-2">
+                <a href="https://pk.linkedin.com/">
+                <i class="fa-brands fa-linkedin" style="color: #e6e6e6;"></i>
+              </a>
+            </div>
+              
+            </div>
+            <a class="navbar-brand" href="#"></a>
+            
+          </div>
+        </nav>
+        <!-- Navigation end-->
+
+        <!-- header -->
+        <header>
+            <div class="container-fluid">
+              <img src="./Assets/header-img.jpg" width="1359" height="300" alt="image">
+              <h2 class="math fw-bolder">Learn Mathematics With Us</h2>
+
+            <!-- breadcrumb start-->
+              <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='orange'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item fw-bold"><a href="./Index.html" >Home</a></li>
+                <li class="breadcrumb-item fw-bold"><a href="./Courses.html" >Courses</a></li>
+                <li class="breadcrumb-item active text-light fw-semibold" aria-current="page">Mathematics</li>
+              </ol>
+            </nav><!-- breadcrumb end -->
+            </div>
+         </header> 
+         <!-- header end -->
+
+        <!-- main start -->
+        <main>
+            <div id="left"> 
+                <img class="position-relative optanon-category-C0001" src="./Assets/card img/Math-side-img.jpeg" loading="lazy" alt="side-pic" data-ot-ignore>
+        
+                <h3>Mathematics
+                    Overview:</h3>
+                    <p>• Mathematics is the language of science and a fundamental skill for various academic disciplines.
+                        <br><br>
+                    • Our mathematics courses cover topics from basic arithmetic to advanced <br> calculus and beyond.</p>
+                    <br>
+                    <h3>Key Features:</h3>
+                    <p class="p2">• Conceptual Clarity <br>
+                    • Problem-solving Techniques <br>
+                    • Real-world Applications <br>
+                    • Exam focused Preparation</p>
+            </div>
+
+            <div id="right">
+                <h2 class="display-6 fw-bolder text-uppercase text-center">Mathematics</h2>
+                <p class="p2">Mathematics is the universal language of logic, patterns, and problem-solving. It is a fundamental discipline that underpins various fields of science, technology, engineering, and everyday life. Our mathematics courses are designed to help students explore the beauty and practicality of mathematical concepts, from basic arithmetic to advanced calculus, algebra, and more.</p>
+                </br></br>
+
+                <h4>Why Study Mathematics with Us?</h4>
+                    <br>
+                    <h5>Comprehensive Curriculum:</h5> <p>Our mathematics curriculum is designed to accommodate diverse skill levels, from beginners to advanced learners. We offer courses that address the needs of students at every stage of their mathematical journey.</p>
+                    <br>
+                    <h5>Experienced Instructors:</h5> <p>Our experienced instructors are passionate about mathematics and dedicated to helping students reach their full potential. They make complex concepts accessible and enjoyable to learn.</p>
+                    <br>
+                    <h5>Practical Applications:</h5> <p>Mathematics isn't just a theoretical subject. It has real-world applications in fields like engineering, physics, economics, and computer science. Our courses emphasize practical problem-solving.</p>
+                    <br>
+                    <h5>Intellectual Growth:</h5> <p>Studying mathematics isn't just about numbers; it's about developing critical thinking, problem-solving skills, and the ability to approach complex challenges with confidence.</p>
+                    <br>
+                    <p>Join us in the exciting world of mathematics and discover how this powerful discipline can unlock doors to new opportunities and perspectives. Choose from our diverse mathematics courses and embark on a journey of intellectual growth and problem-solving excellence.</p>
+            </div>
+        </main>
+        <!-- main end -->
+
+        <!-- courses-sec Start -->
+        <section class="course1 pt-0 pb-3" style="background-color: #e1dddb;">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center d-flex flex-row">
+                    <div class="col-xxl-8 w-100">
+                        <div class="text-center1 my-5">
+                            <h2 class="display-7 fw-bolder"><span class="text-uppercase ">Courses</span></h2><br><br>
+                            <p class="para">Our mathematics courses are designed to provide a solid foundation in various mathematical disciplines. Whether you're interested in calculus, algebra, or geometry, we have courses that cater to different levels of expertise.</p><br><br>
+                            <h3 class="display-4 fw-bolder">Featured Courses</h3>
+                            <div class="container-fluid d-flex flex-row justify-content-around text-center">
+                                
+                              <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                                <img src="./Assets/card img/calculus..jpg" class="card-img-top rounded-top-4" alt="maths">
+                                <div class="card-body1 shadow rounded-bottom-4" style="background-color: #f0f0f0; height:0.2em;">
+                                  <h5 class="card-title1 fw-semibold ">Calculus</h5>
+                                  <h6>3 months</h6>
+                                  <p class="card-text1 text-dark">This course offers a comprehensive introduction to the fundamental principles of calculus. Students will explore topics like limits, derivatives, and integrals.</p>
+                                  <br>                  <a href="./Assets/Sub.File/CALCULUS SUBJECT LIST.docx" download="subject detail"         class="btn">Download Info</a>
+
+                                  <a href="./Assets/Sub.File/math course fee 1.pdf" download="fee info" class="btn">Fee Details</a>
+                                </div>
+                              </div>
+
+                              <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                                <img src="./Assets/card img/algebra.jpeg" class="card-img-top rounded-top-4" alt="maths">
+                                <div class="card-body1 shadow rounded-bottom-4" style="background-color: #dfdfdf; height: 0em;">
+                                  <h5 class="card-title1 fw-semibold">Linear Algebra</h5>
+                                  <h6>6 months</h6>
+                                  <p class="card-text1 text-dark">The Algebra Fundamentals course is designed for students looking to build a strong foundation in algebraic concepts and problem-solving skills.</p>
+                                  <br>
+                                  <a href="./Assets/Sub.File/LINEAR ALGEBRA SUBJECT LIST.docx" download="subject detail"         class="btn">Download Info</a>
+                                  <a href="./Assets/Sub.File/math course fee 2.pdf" download="fee info" class="btn">Fee Details</a>
+                                </div>
+                              </div>
+
+                              <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                                <img src="./Assets/card img/Mathlete.jpeg" class="card-img-top rounded-top-4" alt="maths">
+                                <div class="card-body1 shadow rounded-bottom-4" style="background-color: #e1e1e1; height: 0em;">
+                                  <h5 class="card-title1 fw-semibold">Mathlete</h5>
+                                  <h6>8 months</h6>
+                                  <p class="card-text1 text-dark">The Mathlete Program is designed for students who are passionate about math and wish to excel in math competitions and advanced mathematical concepts.</p>
+                                  <br>                  <a href="./Assets/Sub.File/MATHLETE SUBJECT LIST.docx"     download="subject detail"         class="btn">Download Info</a>
+                                  
+                                  <a href="./Assets/Sub.File/math course fee 3.pdf" download="fee info" class="btn">Fee Details</a>                     
+                                </div>                 
+                              </div>                    
+                             </div>
+                             <br> 
+                             <br>
+                             <a href="./mathcourse.html" class="btn2">View Details</a> 
+                               <br>
+                             <br>
+                             <br>
+                            <p class="para1"><span>Enroll Today:</span> Ready to enhance your mathematics knowledge and skills? Enroll in our mathematics courses and take the first step towards academic success and personal growth.</p> 
+
+                            <!--<h3 class="display-4 fw-bolder">Additional Courses</h3>
+
+                            <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                                <img src="./Assets/card img/Online STEM Summer Camps for High School and College Students.jpeg" class="card-img-top rounded-top-4" alt="maths">
+                                <div class="card-body1 shadow rounded-bottom-4" style="background-color: #dfdfdf; height: 0em;">
+                                  <h5 class="card-title1 fw-semibold">Differential Equations</h5>
+                                  <p class="card-text1 text-dark">Study equations involving derivatives and their solutions.</p>
+                                  <br>
+                                  <a href="#"         class="btn">Download Info</a>
+                                  <a href="#" class="btn">Fee Details</a>
+                                </div>
+                              </div>
+
+                              <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                                <img src="./Assets/card img/Online STEM Summer Camps for High School and College Students.jpeg" class="card-img-top rounded-top-4" alt="maths">
+                                <div class="card-body1 shadow rounded-bottom-4" style="background-color: #dfdfdf; height: 0em;">
+                                  <h5 class="card-title1 fw-semibold">Abstract Algebra</h5>
+                                  <p class="card-text1 text-dark">Delve into algebraic structures like groups, rings, and fields.</p>
+                                  <br>
+                                  <a href="#"         class="btn">Download Info</a>
+                                  <a href="#" class="btn">Fee Details</a>
+                                </div>
+                              </div>
+
+                              <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                                <img src="./Assets/card img/Online STEM Summer Camps for High School and College Students.jpeg" class="card-img-top rounded-top-4" alt="maths">
+                                <div class="card-body1 shadow rounded-bottom-4" style="background-color: #dfdfdf; height: 0em;">
+                                  <h5 class="card-title1 fw-semibold">Linear Algebra</h5>
+                                  <p class="card-text1 text-dark">The Algebra Fundamentals course is designed for students looking to build a strong foundation in algebraic concepts and problem-solving skills.Participants will cover a range of algebra topics.</p>
+                                  <br>
+                                  <a href="#"         class="btn">Download Info</a>
+                                  <a href="#" class="btn">Fee Details</a>
+                                </div>
+                              </div>
+
+                              <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                                <img src="./Assets/card img/Online STEM Summer Camps for High School and College Students.jpeg" class="card-img-top rounded-top-4" alt="maths">
+                                <div class="card-body1 shadow rounded-bottom-4" style="background-color: #dfdfdf; height: 0em;">
+                                  <h5 class="card-title1 fw-semibold">Linear Algebra</h5>
+                                  <p class="card-text1 text-dark">The Algebra Fundamentals course is designed for students looking to build a strong foundation in algebraic concepts and problem-solving skills.Participants will cover a range of algebra topics.</p>
+                                  <br>
+                                  <a href="#"         class="btn">Download Info</a>
+                                  <a href="#" class="btn">Fee Details</a>
+                                </div>
+                              </div>
+
+                              <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                                <img src="./Assets/card img/Online STEM Summer Camps for High School and College Students.jpeg" class="card-img-top rounded-top-4" alt="maths">
+                                <div class="card-body1 shadow rounded-bottom-4" style="background-color: #dfdfdf; height: 0em;">
+                                  <h5 class="card-title1 fw-semibold">Linear Algebra</h5>
+                                  <p class="card-text1 text-dark">The Algebra Fundamentals course is designed for students looking to build a strong foundation in algebraic concepts and problem-solving skills.Participants will cover a range of algebra topics.</p>
+                                  <br>
+                                  <a href="#"         class="btn">Download Info</a>
+                                  <a href="#" class="btn">Fee Details</a>
+                                </div>
+                              </div>
+
+                              <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                                <img src="./Assets/card img/Online STEM Summer Camps for High School and College Students.jpeg" class="card-img-top rounded-top-4" alt="maths">
+                                <div class="card-body1 shadow rounded-bottom-4" style="background-color: #dfdfdf; height: 0em;">
+                                  <h5 class="card-title1 fw-semibold">Linear Algebra</h5>
+                                  <p class="card-text1 text-dark">The Algebra Fundamentals course is designed for students looking to build a strong foundation in algebraic concepts and problem-solving skills.Participants will cover a range of algebra topics.</p>
+                                  <br>
+                                  <a href="#"         class="btn">Download Info</a>
+                                  <a href="#" class="btn">Fee Details</a>
+                                </div>
+                              </div>-->
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <!-- course-sec End -->
+
+         <!-- content start-->
+         <section class="content pt-0 pb-3">
+            <div class="related-topics bg-light-300 py-1">
+                <div class="container-mw-lg container-fluid">
+                    <div class="d-flex justify-content-between pb-4">
+                        <h2>Related Topics</h2>
+                    </div>
+
+                    <div class="related-topics-list d-flex">
+                        <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Statistics</a>
+                        <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Computer Science</a>    
+                        <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Physics</a>
+                        <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Engineering</a>
+                        <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Economics</a>
+                        <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Operation Research</a>
+                        <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Mathematical Finance</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="learn-body container-mw-lg container-fluid">
+                <div class="row">
+                    <div class="learn-body__modules col-12">
+                        <div class="modular-section">
+                        <div class="container-mw-lg container-fluid">
+                            <div id="text-module">
+                                <div class="">
+                                    <h2 class="display-1 pb-1 mb-4"></h2>
+                                    <h4 class="h3 my-4">Why is Math Important?</h4>
+                                    <p class="p">
+                                        "Mathematics holds a central place in our lives for numerous reasons. It serves as a powerful tool for problem-solving, think critically, and arrive at logical solutions. This problem-solving ability extends far beyond the classroom, influencing our approach to daily challenges and decision-making.
+
+                                        In the realms of science and technology, mathematics is the universal language that underpins our understanding of the world. From the physics of the cosmos to the intricate workings of computer algorithms, math is the key to unlocking insights and innovations. It propels advancements in fields such as engineering, medicine, and environmental science, shaping the way we interact with our surroundings.
+                                        
+                                    </p>
+                                        <p class="p">Moreover, math is a gateway to a myriad of career opportunities. Professions in engineering, finance, data analysis, and more demand strong mathematical acumen, offering well-paying and fulfilling avenues for those with mathematical expertise.
+                                    
+                                        Beyond its professional significance, math plays a crucial role in personal development. It nurtures critical thinking, enhances reasoning abilities, and cultivates disciplined problem-solving skills. These qualities are valuable not just in academia but also in everyday life, aiding in informed decision-making and effective communication.
+                                    
+                                        From budgeting finances to cooking, understanding probabilities, and making investments, mathematics permeates our daily routines. It empowers individuals to make sound financial decisions, assess risks, and lead more organized lives.
+                                    
+                                        Ultimately, mathematics is the bedrock of innovation, driving progress in areas like cryptography, artificial intelligence, and medical research. It paves the way for groundbreaking discoveries and technological advancements that enhance our quality of life.
+                                    
+                                        In essence, math is not just a subject taught in schools; it is a fundamental skill that empowers individuals to navigate the complexities of the modern world, make informed choices, and contribute to the advancement of science and technology. Its importance extends beyond academia, making it an indispensable part of our lives."
+                                        </p>
+                                    
+                                    <h4 class="h3 my-4">Math Courses And Curriculum</h4>
+                                    <p class="p">
+                                        
+                                        "Our math courses are carefully designed to provide a comprehensive and engaging learning experience. Whether you are a student aiming to excel in your academic pursuits or an individual seeking to strengthen your mathematical skills, our curriculum offers a diverse range of courses. From foundational topics like arithmetic and algebra to advanced subjects such as calculus and statistics, we cover a spectrum of mathematical concepts. Our instructors are dedicated to fostering a deep understanding of mathematical principles, emphasizing not only theoretical knowledge but also practical problem-solving skills. We believe that math is not just a subject to be studied but a skill to be honed, and our courses are structured to empower learners with the confidence and proficiency to apply mathematics in various real-world contexts. Explore our curriculum and embark on a mathematical journey that will enhance your academic achievements and critical thinking abilities."
+                                    </p>
+
+                                    <p class="p2">Build your math skills with courses covering:</p>
+                                    <ul class="pl-4.5">
+                                        <li>
+                                            Number Theory
+                                        </li>
+                                        <li> 
+                                            Linear Algebra
+                                        </li>
+                                        <li>
+                                            Trigonometry
+                                        </li>
+                                        <li>
+                                            Differential equations
+                                        </li>
+                                        <li>
+                                           Calculus
+                                        </li>
+                                    </ul>
+                                
+                                <br>
+                                <p class="p">
+                                    Or, take speciialized math courses designed for statistics, data science, and computer science professionals that explore topics like machine learning, algorithms, and python.
+                                </p>
+                            </div>
+                                <p class="p"></p>
+                            </div>
+                            <div class="d-flex justify-content-end"></div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="modular-section">
+                    <div class="container-mw-lg container-fluid">
+                        <div class="text-module">
+                            <div class="">
+                                <h2 class="display-1 pb-1 mb-4"></h2>
+                                <h3 class=" my-4">Careers In Math</h3>
+                                <p class="p">Advanced math skills are necessary for a number of job roles, including:</p>
+                                
+                                <ul class="pl-4.5">
+                                    <li>
+                                       Actuary
+                                    </li>
+                                    <li>
+                                       Accountant
+                                    </li>
+                                    <li>
+                                       Statistician
+                                    </li>
+                                    <li>
+                                       Operations research analyst
+                                    </li>
+                                    <li>
+                                      Data analyst
+                                    </li>
+                                </ul>
+                                <br>
+                                <p class="p">
+                                    But, a math education is beneficial for people who aspire to careers in many different fields, from science to arts. Build your mathematical skills and explore how excellent coaching courses can help you get started on your learning journey today.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+         </section>
+        
+         <!-- footer Start -->
+     <footer class="text-center text-lg-start text-muted">
+
+        <!-- Social media Start-->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  
+        <!-- Left Start -->
+          <div class="Left me-5 d-none d-lg-block fw-semibold">
+            <span>Get connected with us on social networks:</span>
+          </div>
+        <!-- Left End -->
+  
+        <!-- Right Start -->
+        <div>
+          <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE" class="me-4 text-reset">
+            <i class="fab fa-facebook-f" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://twitter.com/?lang=en" class="me-4 text-reset">
+            <i class="fab fa-twitter" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://www.google.com/gmail/about/" class="me-4 text-reset">
+            <i class="fab fa-google" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://www.instagram.com/" class="me-4 text-reset">
+            <i class="fab fa-instagram" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://pk.linkedin.com/" class="me-4 text-reset">
+            <i class="fab fa-linkedin" style="color: #e6e6e6;"></i>
+          </a>
+        </div>
+        <!-- Right End -->
+  
+        </section>
+  
+        <!-- Social media End-->
+  
+        <!-- Links -->
+        <section class="link">
+          <div class="container text-center text-md-start mt-5">
+  
+          <!-- Grid row -->
+          <div class="row mt-3">
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+  
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4" style="color: #71b1e1; font-size: 1em;">
+                <div class="footer-logo">
+                  <img src="./Assets/Logo/logo e-project-01.png" alt="Your Logo">
+              Excellent Coaching</div>
+              </h6>
+              <p>
+                Welcome to Excellent Coaching - Your Path to Success!
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+              <h6 class="text-uppercase fw-semibold mb-4 ">
+                Explore Our Courses
+              </h6>
+              <p>
+                <a href="./Math.html" class="text-reset">Mathematics</a>
+              </p>
+              <p>
+                <a href="./commerce.html" class="text-reset">Commerce</a>
+              </p>
+              <p>
+                <a href="./science.html" class="text-reset">Science</a>
+              </p>
+              <p>
+                <a href="./english.html" class="text-reset">English</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+               <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-semi-bold mb-4">
+            Quick links
+          </h6>
+          <p>
+            <a href="./aboutUs.html" class="text-reset">About Us</a>
+          </p>
+          <p>
+            <a href="./Faculty.html" class="text-reset">Faculty</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">FAQ</a>
+          </p>
+          <p>
+            <a href="./Contact.html" class="text-reset">Contact</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+              <!-- Links -->
+              <h6 class="text-uppercase fw-semi-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i>123 Example Street, City, Country</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+  
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Links -->
+  
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.25); color: #e8e8e8;">
+          © 2019 Copyright:
+          <a class="text-reset fw-bold" href="http://127.0.0.1:5500/Index.html" style="text-decoration: none;">Excelent Coaching</a><p>All rights reserved.</p>
+        </div>
+        <!-- Copyright -->
+      </footer>
+        <!-- footer End -->
+
+
+</body>
+</html>

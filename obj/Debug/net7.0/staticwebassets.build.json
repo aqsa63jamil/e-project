@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "Hash": "x0QKzl1CQ/2nL22guiyao2bd9kZqxia3RgI0yb9CWV8=",
+  "Source": "E-PROJECT",
+  "BasePath": "_content/E-PROJECT",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\asp.APTECHNN2\\Desktop\\E-PROJECT\\obj\\Debug\\net7.0\\scopedcss\\bundle\\E-PROJECT.styles.css",
+      "SourceId": "E-PROJECT",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\asp.APTECHNN2\\Desktop\\E-PROJECT\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/E-PROJECT",
+      "RelativePath": "E-PROJECT.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\asp.APTECHNN2\\Desktop\\E-PROJECT\\obj\\Debug\\net7.0\\scopedcss\\bundle\\E-PROJECT.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\asp.APTECHNN2\\Desktop\\E-PROJECT\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\E-PROJECT.bundle.scp.css",
+      "SourceId": "E-PROJECT",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\asp.APTECHNN2\\Desktop\\E-PROJECT\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/E-PROJECT",
+      "RelativePath": "E-PROJECT.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\asp.APTECHNN2\\Desktop\\E-PROJECT\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\E-PROJECT.bundle.scp.css"
+    }
+  ]
+}

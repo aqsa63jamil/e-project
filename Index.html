@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="./Assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Excellent Coaching</title>
+</head>
+<body>
+    <!-- Navigation start -->
+    
+    <nav class="navbar navbar-expand-lg  sticky-top" style="background-color: #3e587c;" >     
+      <div class="container-fluid px-5" >   
+        <img src="./Assets/Logo/logo e-project-01.png" alt="Bootstrap" width="50" height="60">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="./Index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./aboutUs.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./Faculty.html">FACULTY</a>
+            </li>
+            <li class="dropdown"><a class="nav-link scrollto text-light" href="./Courses.html"><span>COURSES</span> <i class="bi bi-chevron-down"></i></a>
+              <ul class="ul">
+                <li class="dropdown"><a href="./Math.html"><span> Mathematics</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Statistics</a></li>
+                    <li><a href="#">Algebra</a></li>
+                    <li><a href="#">Calculus and Analysis</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./Math.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="./commerce.html"><span>Commerce</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Accounting</a></li>
+                    <li><a href="#">Economics</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./commerce.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="./science.html"><span>Science(Phy,Chem,Bio)</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Environmental Science</a></li>
+                    <li><a href="#">Geology</a></li>
+                    <li><a href="#">BioChemistry</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./science.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="./english.html"><span>English Language and Literature<span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Linguistics</a></li>
+                    <li><a href="#">Creative Writing</a></li>
+                    <li><a href="#">History of English Language</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./english.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="./computer science.html"><span>Computer Science<span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Software Engineering</a></li>
+                    <li><a href="#">Artificial Intelligence</a></li>
+                    <li><a href="#">Database Management</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./computer science.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>Foreign Languages<span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Spanish</a></li>
+                    <li><a href="#">Arabic</a></li>
+                    <li><a href="#">French</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>Additional Electives<span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Visual Arts</a></li>
+                    <li><a href="#">Sociology</a></li>
+                    <li><a href="#">Cultural Studies</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">See All</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./Contact.html">CONTACT</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+
+      <div class="container-fluid justify-content-end" >
+    <div class="d-flex">
+      <div class="p-2">
+        <a href="https://twitter.com/?lang=en">
+        <i class="fa-brands fa-twitter" style="color: #e6e6e6;"></i>
+      </a>
+    </div>
+      <div class="p-2">
+        <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE">
+        <i class="fa-brands fa-facebook" style="color: #e6e6e6;"></i>
+     </a> 
+    </div>
+      <div class="p-2">
+        <a href="https://www.instagram.com/">
+        <i class="fa-brands fa-instagram" style="color: #e6e6e6;"></i>
+      </a>
+      </div>
+      <div class="p-2">
+        <a href="https://www.google.com/gmail/about/">
+        <i class="fa-brands fa-google" style="color: #e6e6e6;"></i>
+      </a>
+    </div>
+      <div class="p-2">
+        <a href="https://pk.linkedin.com/">
+        <i class="fa-brands fa-linkedin" style="color: #e6e6e6;"></i>
+      </a>
+    </div>
+        </div>
+        <a class="navbar-brand" href="#"></a>
+        
+      </div>
+    </nav>
+    <!-- Navigation end-->
+
+      <!-- Hero-Sec Start -->
+      <section class="banner">
+      <div class="container-fluid p-0">
+       <!-- <img src="./Assets/MainImg.jpg" class=" img-fluid vh-100 vw-100" alt="MainImg" > -->
+        <div class="container-fluid position-absolute top-50 start-50 translate-middle text-center">
+        <div class="h2 fs-3 fw-light fw-semibold text-uppercase">EMPOWER YOUR SUCCESS WITH</div>
+        <h1 class="display-1 fw-bolder "><span >EXCELLENT COACHING</span></h1>
+        <div class="fs-3 fw-light fw-semibold text-uppercase" style="text-shadow: 2px 2px 2px #000000; color: #dae1e5; margin-top: 0.5em; ">Your Path To Excellence Begins Here</div><br>
+        <a href="./Contact.html" class="btn w-18 h-18 p-2 fs-4">Enroll Now</a>
+        </div>
+      </div>
+    </section>
+      <!-- Hero-Sec End -->
+
+      <!-- About-Sec Start -->
+                  <section class="about py-5" style="background-color: #3e587c;">
+                    <div class="container px-5">
+                        <div class="row gx-5 justify-content-center rounded-5 shadow-lg" >
+                            <div class="col-xxl-8 rounded-5 w-100 shadow-lg" style="background-color: #c0c0c0;">
+                                <div class="text-center my-5">
+                                    <h2 class="display-6 fw-semibold"><span class="text-uppercase ">About Us</span></h2><br>
+                                        <p class="text-dark p-0 fs-5 lh-2">
+                                        Welcome to <span> EXCELLENT COACHING</span> , your trusted partner in educational excellence. With a rich legacy of 10 years in the field of coaching and mentorship, we have been instrumental in shaping the future of countless students.<br><br>
+                                        </p>
+                                        <h2 class="display-6 fw-semibold"><span class="text-uppercase ">Why Choose Us</span></h2><br>
+                                        <p class="text-dark p-0 fs-5 lh-1.5">
+                                        <b>Experienced Faculty:</b> Our team of dedicated and experienced educators is the backbone of our success. They bring a wealth of knowledge and expertise to the classroom, ensuring that our students receive the best guidance.<br><br>
+                                        <b>Comprehensive Programs:</b> Whether you're preparing for school exams, competitive entrance tests, or professional certifications, we offer a wide range of programs to meet your specific needs.<br><br>
+                                        <b>Comprehensive Programs:</b> With a decade of experience, we have a strong track record of helping students excel in their exams. Our results speak for themselves, and our alumni are a testament to our commitment to success.<br><br>
+                                        <b>State-of-the-Art Facilities:</b> Our modern facilities and resources provide an ideal learning environment, making the educational journey enjoyable and productive.
+                                        </p>
+                                        <br>
+                                        <a href="./aboutUs.html" class="btn w-15 h-15">Read More</a>   
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- About-Sec End -->
+
+                <!-- Faculty-sec Start -->
+                <section class="faculty pt-0 pb-3">
+                  <div class="container px-5">
+                      <div class="row gx-5 justify-content-center d-flex flex-row">
+                          <div class="col-xxl-8 w-100">
+                              <div class="text-left my-5">
+                                  <h2 class="display-6 fw-bolder"><span class="text-uppercase ">Meet Our Exceptional Faculty Team</span></h2><br>
+                                  <div class="clearfix">
+                                    <img src="./Assets/faculty.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 shadow rounded-5" alt="faculty">
+                                  
+                                    <p>
+                                      At Excellent Coaching, we believe that the foundation of any great educational institution is its faculty. We are proud to introduce our dedicated and passionate team of educators who are committed to nurturing the academic potential of our students.
+                                      <br>    
+                                      Our faculty members are carefully selected, not only for their extensive knowledge and expertise in their respective fields but also for their ability to inspire and mentor students. With diverse backgrounds and experiences, they bring a wealth of real-world knowledge to the classroom, making learning an engaging and enriching experience.
+                                    </p> <br>
+                                    <h2 class="display-6 fw-semibold"><span class="text-uppercase">What sets our faculty apart:</span></h2><br>
+                                    <p>
+                                      <b>1. Expertise:</b> Our educators are subject-matter experts, holding advanced degrees in their fields. They are well-versed in the latest developments and trends, ensuring that our students receive the most up-to-date information.
+                                    </p>
+                                    <br>
+                                    <p>
+                                      <b>2. Passion:</b> Our faculty members are passionate about teaching and are dedicated to helping students achieve their full potential. They understand that every student is unique and tailor their teaching methods to meet individual needs.
+                                    </p>
+                                    <br>
+                                    <p>
+                                      <b>3. Accessibility:</b> We believe in an open-door policy. Our faculty members are approachable and always willing to help students with their questions, concerns, or doubts. You'll find that the support you need is just a conversation away.
+                                    </p>
+                                    <br>
+                                    <p>
+                                      <b>4. Mentorship:</b> Beyond academic support, our faculty members serve as mentors, guiding students through their educational journey. They help students set goals, develop study strategies, and provide the encouragement needed to succeed.
+                                    </p>
+                                    <br>
+                                    <p>
+                                      <b>5. Innovative Teaching:</b> We encourage our faculty to use innovative teaching methods and technologies to enhance the learning experience. This ensures that our students are well-prepared for the challenges of the modern world.
+                                    </p>
+                                    <br>
+                                    <a href="./Faculty.html" class="btn w-15 h-15">View Faculty</a>
+                                  </div>                        
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+              <!-- Faculty-sec End -->
+
+        <!-- courses-sec Start -->
+        <section class="course pt-0 pb-3" style="background-color: #c0c0c0;  border-radius: 0.7em; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <div class="container px-5" >
+                <div class="row gx-5 justify-content-center d-flex flex-row">
+                    <div class="col-xxl-8 w-100">
+                        <div class="text-center my-5">
+                            <h2 class="display-6 fw-bolder"><span class="text-uppercase">Courses</span></h2><br><br>
+                            <div class="container-fluid d-flex flex-row justify-content-around">
+                              <div class="card rounded-4" style="width: 22rem; height: 25rem; margin-left: -2em;">
+                                <img src="./Assets/card img/Math.jpg" class="card-img-top rounded-top-4" alt="maths">
+                                <div class="card-body shadow rounded-bottom-4" style="background-color: #dfdfdf; height: 5em;">
+                                  <h5 class="card-title fw-semibold ">Mathematics</h5>
+                                  <p class="card-text text-dark">"We offer a comprehensive selection of mathematics courses, providing students with the opportunity to explore the richness and depth of this discipline."</p>
+<br>                  <a href="./Math.html" class="btn">View Details</a>
+                                </div>
+                              </div>
+                              <div class="card rounded-4" style="width: 22rem; height: 25rem;">
+                                <img src="./Assets/card img/commerce.jpg" class="card-img-top rounded-top-4" alt="maths">
+                                <div class="card-body shadow rounded-bottom-4" style="background-color: #dfdfdf; height: 5em;">
+                                  <h5 class="card-title fw-semibold">Commerce</h5>
+                                  <p class="card-text text-dark">"We offer a comprehensive selection of commerce subjects designed to help students with the knowledge and skills necessary to excel in various professional roles."</p>
+                                  <br>
+                      <a href="./commerce.html" class="btn">View Details</a>
+                                </div>
+                              </div>
+
+                              <div class="card rounded-4" style="width: 22rem; height: 25rem;">
+                                <img src="./Assets/card img/science..jpg" class="card-img-top rounded-top-4" alt="maths">
+                                <div class="card-body shadow rounded-bottom-4" style="background-color: #dfdfdf; height: 5em;">
+                                  <h5 class="card-title fw-semibold">Science</h5>
+                                  <p class="card-text text-dark">"Our science programs offer a wide range of courses designed to spark curiosity, critical thinking, and prepare students for the challenges and opportunities of the future."</p>
+    <br>                  <a href="./science.html" class="btn">View Details</a>                                  
+                                </div>                             
+                              </div>     
+
+                              <div class="card rounded-4" style="width: 22rem; height: 25rem;">
+                                <img src="./Assets/card img/english.jpg" class="card-img-top rounded-top-4" alt="maths">
+                                <div class="card-body shadow rounded-bottom-4" style="background-color: #dfdfdf; height: 5em;">
+                                  <h5 class="card-title fw-semibold">English</h5>
+                                  <p class="card-text text-dark">"English often encompass various related subjects that can provide a comprehensive understanding of the language, literature, and its broader cultural context."</p>
+    <br>                  <a href="./english.html" class="btn">View Details</a>                                  
+                                </div>                             
+                              </div>                             
+                            </div> 
+                            <br>     
+    <br>                <br>    
+                          <a href="./Courses.html" class="btn w-25 h-25">View All Courses</a>                   
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <!-- course-sec End -->
+
+        <!-- Testimonials Start -->
+
+        <section class="testimonials py-5">
+          <div class="container px-5">
+              <div class="row gx-5 justify-content-center ">
+                  <div class="col-xxl-8 w-100 ">
+                      <div class="text-center my-5">
+                          <h2 class="display-6 fw-bolder"><span class="text-uppercase " style=" color: #092357;">testimonials</span></h2><br>
+                          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner rounded-5" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                              <div class="carousel-item active">
+                                <img src="./Assets/Testimonials/TESTS-01.jpg" class="d-block w-100" alt="test1">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./Assets/Testimonials/TESTS-02.jpg" class="d-block w-100" alt="test2">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./Assets/Testimonials/TESTS-03.jpg" class="d-block w-100" alt="test3">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+
+                             
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- Testimonials End-->
+
+      <!-- footer Start -->
+      <footer class="text-center text-lg-start text-muted">
+
+      <!-- Social media Start-->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+      <!-- Left Start -->
+        <div class="Left me-5 d-none d-lg-block fw-semibold">
+          <span>Get connected with us on social networks:</span>
+        </div>
+      <!-- Left End -->
+
+      <!-- Right Start -->
+      <div>
+        <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE" class="me-4 text-reset">
+          <i class="fab fa-facebook-f" style="color: #e6e6e6;"></i>
+        </a>
+        <a href="https://twitter.com/?lang=en" class="me-4 text-reset">
+          <i class="fab fa-twitter" style="color: #e6e6e6;"></i>
+        </a>
+        <a href="https://www.google.com/gmail/about/" class="me-4 text-reset">
+          <i class="fab fa-google" style="color: #e6e6e6;"></i>
+        </a>
+        <a href="https://www.instagram.com/" class="me-4 text-reset">
+          <i class="fab fa-instagram" style="color: #e6e6e6;"></i>
+        </a>
+        <a href="https://pk.linkedin.com/" class="me-4 text-reset">
+          <i class="fab fa-linkedin" style="color: #e6e6e6;"></i>
+        </a>
+      </div>
+      <!-- Right End -->
+
+      </section>
+
+      <!-- Social media End-->
+
+      <!-- Links -->
+      <section class="link">
+        <div class="container text-center text-md-start mt-5">
+
+        <!-- Grid row -->
+        <div class="row mt-3">
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4" style="color: #71b1e1; font-size: 1em;">
+              <div class="footer-logo">
+                <img src="./Assets/Logo/logo e-project-01.png" alt="Your Logo">
+            Excellent Coaching</div>
+            </h6>
+            <p class="p4">
+              Welcome to Excellent Coaching - Your Path to Success!
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+            <h6 class="text-uppercase fw-semibold mb-4 ">
+              Explore Our Courses
+            </h6>
+            <p>
+              <a href="./Math.html" class="text-reset">Mathematics</a>
+            </p>
+            <p>
+              <a href="./commerce.html" class="text-reset">Commerce</a>
+            </p>
+            <p>
+              <a href="./science.html" class="text-reset">Science</a>
+            </p>
+            <p>
+              <a href="./english.html" class="text-reset">English</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+              <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-semi-bold mb-4">
+            Quick links
+          </h6>
+          <p>
+            <a href="./aboutUs.html" class="text-reset">About Us</a>
+          </p>
+          <p>
+            <a href="./Faculty.html" class="text-reset">Faculty</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">FAQ</a>
+          </p>
+          <p>
+            <a href="./Contact.html" class="text-reset">Contact</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+            <!-- Links -->
+            <h6 class="text-uppercase fw-semi-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>123 Example Street, City, Country</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Links -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.25); color: #e8e8e8;">
+        © 2019 Copyright:
+        <a class="text-reset fw-bold" href="http://127.0.0.1:5500/Index.html" style="text-decoration: none;">Excelent Coaching</a><p>All rights reserved.</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+      <!-- footer End -->
+
+      <!-- script links-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+
+      <script src="./math.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links -->
+    <link rel="stylesheet" href="./Assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="./Assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./course.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Computer Science</title>
+
+</head>
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg  sticky-top" style="background-color: #3e587c;" >     
+        <div class="container-fluid px-5" >   
+          <img src="./Assets/Logo/logo e-project-01.png" alt="Bootstrap" width="50" height="60">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="./Index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./aboutUs.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./Faculty.html">FACULTY</a>
+              </li>
+              <li class="dropdown"><a class="nav-link scrollto text-light" href="./Courses.html"><span>COURSES</span> <i class="bi bi-chevron-down"></i></a>
+                <ul class="ul">
+                  <li class="dropdown"><a href="./Math.html"><span> Mathematics</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Statistics</a></li>
+                      <li><a href="#">Algebra</a></li>
+                      <li><a href="#">Calculus and Analysis</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./Math.html">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="./commerce.html"><span>Commerce</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Accounting</a></li>
+                      <li><a href="#">Economics</a></li>
+                      <li><a href="#">Finance</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./commerce.html">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="./science.html"><span>Science(Phy,Chem,Bio)</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Environmental Science</a></li>
+                      <li><a href="#">Geology</a></li>
+                      <li><a href="#">BioChemistry</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./science.html">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="./english.html"><span>English Language and Literature<span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Linguistics</a></li>
+                      <li><a href="#">Creative Writing</a></li>
+                      <li><a href="#">History of English Language</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./english.html">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#"><span>Computer Science<span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Software Engineering</a></li>
+                      <li><a href="#">Artificial Intelligence</a></li>
+                      <li><a href="#">Database Management</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#"><span>Foreign Languages<span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Spanish</a></li>
+                      <li><a href="#">Arabic</a></li>
+                      <li><a href="#">French</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">See All</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#"><span>Additional Electives<span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Visual Arts</a></li>
+                      <li><a href="#">Sociology</a></li>
+                      <li><a href="#">Cultural Studies</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">See All</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./Contact.html">CONTACT</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+        <div class="container-fluid justify-content-end" >
+          <div class="d-flex">
+            <div class="p-2">
+              <a href="https://twitter.com/?lang=en">
+              <i class="fa-brands fa-twitter" style="color: #e6e6e6;"></i>
+            </a>
+          </div>
+            <div class="p-2">
+              <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE">
+              <i class="fa-brands fa-facebook" style="color: #e6e6e6;"></i>
+           </a> 
+          </div>
+            <div class="p-2">
+              <a href="https://www.instagram.com/">
+              <i class="fa-brands fa-instagram" style="color: #e6e6e6;"></i>
+            </a>
+            </div>
+            <div class="p-2">
+              <a href="https://www.google.com/gmail/about/">
+              <i class="fa-brands fa-google" style="color: #e6e6e6;"></i>
+            </a>
+          </div>
+            <div class="p-2">
+              <a href="https://pk.linkedin.com/">
+              <i class="fa-brands fa-linkedin" style="color: #e6e6e6;"></i>
+            </a>
+          </div>
+            
+          </div>
+          <a class="navbar-brand" href="#"></a>
+          
+        </div>
+      </nav>
+      <!-- Navigation end-->
+
+      <!-- header -->
+    <header>
+        <div class="container-fluid">
+          <img src="./Assets/header-img.jpg" alt="image" width="1359" height="300">
+          <h2 class="com fw-bolder">Learn Computer Science With Us</h2>
+
+          <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='orange'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item fw-bold"><a href="./Index.html" >Home</a></li>
+            <li class="breadcrumb-item fw-bold"><a href="./Courses.html" >Courses</a></li>
+            <li class="breadcrumb-item active text-light fw-semibold" aria-current="page">Computer Science</li>
+          </ol>
+        </nav>
+        </div>
+     </header> 
+     <!-- header end -->
+
+     <!-- main start -->
+     <main>
+        <div id="left"> 
+            <img class="side-pic position-relative optanon-category-C0001" src="./Assets/card img/Computer-science-side-pic.jpeg" loading="lazy" data-ot-ignore>
+    
+            <h3>Computer Science
+                Overview:</h3>
+                <p>• In the digital age, computer science is a highly relevant and sought-after subject.
+                    <br><br>
+                • Our courses cover programming, software development, and computer literacy.</p>
+                <br>
+                <h3>Key Features:</h3>
+                <p class="p2">• Coding Practice <br>
+                • Algorithm Development<br>
+                • Technology Trends<br>
+                • Practical Projects
+                </p>
+          </div>
+
+          <div id="right">
+            <h2 class="Co display-6 fw-bolder text-uppercase text-center">Computer Science</h2>
+            <p class="p2">In today's digital age, computer science is at the forefront of innovation and problem-solving. At Excellent Coaching, we recognize the growing significance of computer science in various industries and daily life. Our computer science courses are designed to empower students with the knowledge and skills needed to navigate this dynamic and ever-evolving field.</p>
+            </br></br>
+
+            <h4>Why Study Computer Science with Us?</h4>
+                <br>
+                <h5>Cutting-Edge Curriculum:</h5> 
+                <p>Our computer science curriculum is carefully curated to cover a wide spectrum of topics, from programming and data structures to artificial intelligence and cybersecurity. We ensure our students are well-versed in the latest technologies and industry trends.</p>
+                <br>
+                <h5>Experienced Instructors:</h5>
+                <p>Our passionate and experienced instructors bring real-world expertise into the classroom. They are dedicated to fostering a deep understanding of computer science concepts and nurturing problem-solving abilities.</p>
+                <br>
+                <h5>Creative Writing Emphasis:</h5> <p>If you have a passion for creative writing, our program offers a special emphasis on this area. You'll have the chance to refine your writing skills and express your creativity.</p>
+                <br>
+                <h5>Career Opportunities:</h5> 
+                <p>A solid foundation in computer science opens the door to diverse career opportunities, from software development and data analysis to machine learning and cybersecurity. Our courses help students prepare for these in-demand roles.
+                </p>
+                <br>
+                <p>By studying computer science with us, you'll gain more than just technical skills. You'll acquire the ability to think critically, solve complex problems, and contribute to the innovation that drives the modern world. Explore our range of computer science courses and embark on a journey that can shape your future in an increasingly digital world.</p>
+        </div>
+     </main>
+     <!-- main end -->
+
+     <!-- courses-sec Start -->
+     <section class="course1 pt-0 pb-3" style="background-color: #e1dddb;">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center d-flex flex-row">
+                <div class="col-xxl-8 w-100">
+                    <div class="text-center1 my-5">
+                        <h2 class="display-7 fw-bolder"><span class="text-uppercase ">Courses</span></h2><br><br>
+                        <p class="para">Welcome to the exciting world of Computer Science, where innovation and problem-solving come together to shape the future. Our Computer Science department offers a diverse range of courses designed to equip you with the knowledge and skills needed to thrive in this dynamic field. Explore the possibilities, from coding and software development to artificial intelligence and cybersecurity. Here are some of our featured courses:</p><br><br>
+                        <h3 class="display-4 fw-bolder">Featured Courses</h3>
+                        <div class="container-fluid d-flex flex-row justify-content-around text-center">
+                            
+                          <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                            <img src="./Assets/card img/Technology.jpeg" class="card-img-top rounded-top-4" alt="maths">
+                            <div class="card-body1 shadow rounded-bottom-4" style="background-color: #f0f0f0; height:0.2em;">
+                              <h5 class="card-title1 fw-semibold ">Information System Management </h5>
+                              <h6>6 month</h6>
+                              <p class="card-text1 text-dark">An Information System Management (ISM) course is a comprehensive program designed to equip students with the knowledge and skills .</p>
+  <br>                            <a href="#" download="subject detail"         class="btn">Download Info</a>
+                            <a href="./Assets/Sub.File/CS course 1.pdf" download="fee info" class="btn">Fee Details</a>
+                            </div>
+                          </div>
+  
+                          <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                            <img src="./Assets/card img/AI.jpg" class="card-img-top rounded-top-4" alt="maths">
+                            <div class="card-body1 shadow rounded-bottom-4" style="background-color: #dfdfdf; height: 0em;">
+                              <h5 class="card-title1 fw-semibold">Artificial Intelligence</h5>
+                              <h6>6 months</h6>
+                              <p class="card-text1 text-dark">Delve into AI and machine learning, building intelligent systems and algorithms. Exploring AI technologies and their applications in various domains.</p>
+                              <br>
+                              <a href="#" download="subject detail"         class="btn">Download Info</a>
+                              <a href="./Assets/Sub.File/CS course 2..pdf" download="fee info" class="btn">Fee Details</a>
+                            </div>
+                          </div>
+  
+                          <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                            <img src="./Assets/card img/programming.jpg" class="card-img-top rounded-top-4" alt="maths">
+                            <div class="card-body1 shadow rounded-bottom-4" style="background-color: #e1e1e1; height: 0em;">
+                              <h5 class="card-title1 fw-semibold">Software Engineering</h5>
+                              <h6>3 years</h6>
+                              <p class="card-text1 text-dark">Master the software development life cycle, from design to testing and deployment.Software development methodologies, design patterns, testing.</p>
+  <br>                        <a href="#" download="subject detail"         class="btn">Download Info</a>
+                            <a href="./Assets/Sub.File/CS course 3.pdf" download="fee info" class="btn">Fee Details</a>                      
+                            </div>                 
+                          </div>                    
+                         </div>
+                        <br> 
+                        <br>    
+                        <br>   
+  
+                        <p class="para1"><span>Enroll Today:</span> Discover your potential, solve real-world problems, and embrace the digital age with confidence.</p>
+  
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <!-- course-sec End -->
+
+          <!-- content start-->
+          <section class="content pt-0 pb-3">
+            <div class="related-topics bg-light-300 py-5">
+                <div class="container-mw-lg container-fluid">
+                    <div class="d-flex justify-content-between pb-4">
+                        <h2>Related Topics</h2>
+                    </div>
+  
+                    <div class="related-topics-list d-flex">
+                      <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Software Engineering</a>
+                      <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Information Technology</a>    
+                      <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Database Management</a>
+                      <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Data science/a>
+                      <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Mathematics</a>
+                      <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Artificial Intelligence</a>
+                      <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Data Structures</a>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="learn-body container-mw-lg container-fluid">
+              <div class="row">
+                  <div class="learn-body__modules col-12">
+                      <div class="modular-section">
+                      <div class="container-mw-lg container-fluid">
+                          <div id="text-module">
+                            <div class="">
+                              <h2 class="display-1 pb-1 mb-4"></h2>
+                                <h4 class="h3 my-4">Why is Computer Science Important?</h4>
+                                  <p class="p">
+                                    "Computer science stands as a pillar of significance in our contemporary world, influencing virtually every facet of our lives. Its importance is rooted in its transformative capabilities and its profound impact on society, economy, and technology. Here are six compelling reasons that underline the paramount importance of computer science.
+
+                                    First and foremost, computer science is the bedrock of technological advancement. It serves as the engine behind innovation, driving the development of groundbreaking technologies that are rapidly reshaping our world. From artificial intelligence and virtual reality to advancements in medical diagnostics, computer science innovations are pivotal in pushing the boundaries of what's possible.
+                                    
+                                    Second, computer science fuels economic growth and plays a central role in driving prosperity. The tech industry, which is heavily reliant on computer science, has become a significant driver of economic development. It generates countless job opportunities, fosters entrepreneurship, and stimulates innovation, contributing to economic resilience and dynamism.
+                                    
+                                    The third key facet of computer science lies in its problem-solving capabilities and efficiency enhancements. It empowers individuals and organizations to tackle complex problems with precision. Algorithms and coding serve as potent tools to streamline operations and optimize processes, bringing increased efficiency and productivity to a myriad of industries.
+                                        
+                                    </p>
+                                    <p class="p">Education and learning are the fourth arena where computer science wields considerable influence. The digitization of education, characterized by online platforms, interactive software, and digital resources, has opened up new horizons for learning. Computer science, underpinning this transformation, offers tools and insights that enhance both access to education and personalized learning experiences.
+
+                                      The fifth rationale for the importance of computer science centers on information security. In an era characterized by the expansion of digital infrastructure and data-driven systems, the need to safeguard sensitive information becomes paramount. Computer science professionals specialize in developing security measures to protect personal data, financial systems, and critical infrastructure, guarding against cyber threats and ensuring the integrity of digital ecosystems.
+                                      
+                                      Finally, computer science serves as a driving force behind scientific discovery. By enabling researchers to process vast volumes of data, simulate complex systems, and conduct virtual experiments, it accelerates the pace of scientific progress. Fields such as genetics, climate modeling, and particle physics heavily rely on computer science to gain insights into intricate phenomena.
+                                      
+                                      In conclusion, computer science's importance is multifaceted and far-reaching. It encompasses technological advancement, economic growth, efficiency, education, information security, and scientific exploration. As we continue to traverse the digital age, computer science remains central to shaping our present and charting the course for our future, impacting virtually every aspect of our lives in the process."
+                                    </p>
+  
+                                    <h4 class="h3 my-4">Computer Science Courses And Curriculum</h4>
+                                    <p class="p">
+                                            
+                                    "Certainly, computer science is a dynamic and multifaceted field, and a curriculum typically covers a wide range of topics. Here's an overview of common computer science courses and their curriculum:"
+                                    </p>
+  
+                                    <p class="p2">Build your Computer science skills with courses covering:</p>
+                                      <ul class="pl-4.5">
+                                        <li>
+                                            Databases and SQL
+                                        </li>
+                                        <li> 
+                                            Web Development
+                                        </li>
+                                        <li>
+                                            cybersecurity
+                                        </li>
+                                        <li>
+                                            Mobile App Development
+                                        </li>
+                                        <li>
+                                            Computer Graphics
+                                        </li>
+                                      </ul>
+                                  
+                                    <br>
+                                    <p class="p">
+                                      Or, take speciialized Computer Science courses designed for Computer Networks, Data Science, and Introduction Computer Science, professionals that explore topics like Development, Information Technology, and Operating System.
+                                    </p>
+                                  </div>
+                                    <p class="p"></p>
+                                  </div>
+                                <div class="d-flex justify-content-end"></div>
+                            </div>
+                        </div>
+                        </div>
+  
+                        <div class="modular-section">
+                          <div class="container-mw-lg container-fluid">
+                            <div class="text-module">
+                              <h2 class="display-1 pb-1 mb-4"></h2>
+                                <h3 class=" my-4">Careers In Computer Science</h3>
+                                  <p class="p">A career in computer science is a dynamic and rewarding path with a wide range of opportunities. Computer science professionals play a crucial role in the rapidly evolving technology landscape. Here are some of the exciting and diverse career paths you can pursue in computer science:</p>
+                                  
+                                  <ul class="pl-4.5">
+                                    <li>
+                                      Software Developer/Engineer
+                                    </li>
+                                    <li>
+                                      Game Developer
+                                    </li>
+                                    <li>
+                                      Computer Science Educator
+                                    </li>
+                                    <li>
+                                      Data Scientist/Analyst
+                                    </li>
+                                    <li>
+                                      Cybersecurity Analyst/Consultant
+                                    </li>
+                                    <li>
+                                      IT Project Manager
+                                    </li>
+                                    <li>
+                                      AI and Robotics Engineer
+                                    </li>
+                                  </ul>
+                                  <br>
+                                  <p class="p">
+                                    But, a computer science education is 
+                                    beneficial for people who aspire to careers in many different fields, from Developer to data scientist. Build your computer science skills and explore how excellent coaching courses can help you get started on your learning journey today.
+                                  </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- footer Start -->
+     <footer class="text-center text-lg-start text-muted">
+
+        <!-- Social media Start-->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  
+        <!-- Left Start -->
+          <div class="Left me-5 d-none d-lg-block fw-semibold">
+            <span>Get connected with us on social networks:</span>
+          </div>
+        <!-- Left End -->
+  
+        <!-- Right Start -->
+        <div>
+          <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE" class="me-4 text-reset">
+            <i class="fab fa-facebook-f" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://twitter.com/?lang=en" class="me-4 text-reset">
+            <i class="fab fa-twitter" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://www.google.com/gmail/about/" class="me-4 text-reset">
+            <i class="fab fa-google" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://www.instagram.com/" class="me-4 text-reset">
+            <i class="fab fa-instagram" style="color: #e6e6e6;"></i>
+          </a>
+          <a href="https://pk.linkedin.com/" class="me-4 text-reset">
+            <i class="fab fa-linkedin" style="color: #e6e6e6;"></i>
+          </a>
+        </div>
+        <!-- Right End -->
+  
+        </section>
+  
+        <!-- Social media End-->
+  
+        <!-- Links -->
+        <section class="link">
+          <div class="container text-center text-md-start mt-5">
+  
+          <!-- Grid row -->
+          <div class="row mt-3">
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+  
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4" style="color: #71b1e1; font-size: 1em;">
+                <div class="footer-logo">
+                  <img src="./Assets/Logo/logo e-project-01.png" alt="Your Logo">
+              Excellent Coaching</div>
+              </h6>
+              <p>
+                Welcome to Excellent Coaching - Your Path to Success!
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+              <h6 class="text-uppercase fw-semibold mb-4 ">
+                Explore Our Courses
+              </h6>
+              <p>
+                <a href="./Math.html" class="text-reset">Mathematics</a>
+              </p>
+              <p>
+                <a href="./commerce.html" class="text-reset">Commerce</a>
+              </p>
+              <p>
+                <a href="./science.html" class="text-reset">Science</a>
+              </p>
+              <p>
+                <a href="./english.html" class="text-reset">English</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+               <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-semi-bold mb-4">
+            Quick links
+          </h6>
+          <p>
+            <a href="./aboutUs.html" class="text-reset">About Us</a>
+          </p>
+          <p>
+            <a href="./Faculty.html" class="text-reset">Faculty</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">FAQ</a>
+          </p>
+          <p>
+            <a href="./Contact.html" class="text-reset">Contact</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+              <!-- Links -->
+              <h6 class="text-uppercase fw-semi-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i>123 Example Street, City, Country</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+  
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Links -->
+  
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.25); color: #e8e8e8;">
+          © 2019 Copyright:
+          <a class="text-reset fw-bold" href="http://127.0.0.1:5500/Index.html" style="text-decoration: none;">Excelent Coaching</a><p>All rights reserved.</p>
+        </div>
+        <!-- Copyright -->
+      </footer>
+        <!-- footer End -->
+
+</body>
+</html>     

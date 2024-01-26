@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links -->
+    <link rel="stylesheet" href="./Assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="./Assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./course.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Commerce</title>
+
+</head>
+<body>
+
+     <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg  sticky-top" style="background-color: #3e587c;" >     
+      <div class="container-fluid px-5" >   
+        <img src="./Assets/Logo/logo e-project-01.png" alt="Bootstrap" width="50" height="60">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="./Index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./aboutUs.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./Faculty.html">FACULTY</a>
+            </li>
+            <li class="dropdown"><a class="nav-link scrollto text-light" href="./Courses.html"><span>COURSES</span> <i class="bi bi-chevron-down"></i></a>
+              <ul class="ul">
+                <li class="dropdown"><a href="./Math.html"><span> Mathematics</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Statistics</a></li>
+                    <li><a href="#">Algebra</a></li>
+                    <li><a href="#">Calculus and Analysis</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./Math.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="./commerce.html"><span>Commerce</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Accounting</a></li>
+                    <li><a href="#">Economics</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./commerce.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="./science.html"><span>Science(Phy,Chem,Bio)</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Environmental Science</a></li>
+                    <li><a href="#">Geology</a></li>
+                    <li><a href="#">BioChemistry</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./science.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="./english.html"><span>English Language and Literature<span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Linguistics</a></li>
+                    <li><a href="#">Creative Writing</a></li>
+                    <li><a href="#">History of English Language</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./english.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="./computer science.html"><span>Computer Science<span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Software Engineering</a></li>
+                    <li><a href="#">Artificial Intelligence</a></li>
+                    <li><a href="#">Database Management</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./computer science.html">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>Foreign Languages<span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Spanish</a></li>
+                    <li><a href="#">Arabic</a></li>
+                    <li><a href="#">French</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">See All</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>Additional Electives<span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Visual Arts</a></li>
+                    <li><a href="#">Sociology</a></li>
+                    <li><a href="#">Cultural Studies</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">See All</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./Contact.html">CONTACT</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+      <div class="container-fluid justify-content-end" >
+        <div class="d-flex">
+          <div class="p-2">
+            <a href="https://twitter.com/?lang=en">
+            <i class="fa-brands fa-twitter" style="color: #e6e6e6;"></i>
+          </a>
+        </div>
+          <div class="p-2">
+            <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE">
+            <i class="fa-brands fa-facebook" style="color: #e6e6e6;"></i>
+         </a> 
+        </div>
+          <div class="p-2">
+            <a href="https://www.instagram.com/">
+            <i class="fa-brands fa-instagram" style="color: #e6e6e6;"></i>
+          </a>
+          </div>
+          <div class="p-2">
+            <a href="https://www.google.com/gmail/about/">
+            <i class="fa-brands fa-google" style="color: #e6e6e6;"></i>
+          </a>
+        </div>
+          <div class="p-2">
+            <a href="https://pk.linkedin.com/">
+            <i class="fa-brands fa-linkedin" style="color: #e6e6e6;"></i>
+          </a>
+        </div>
+
+        </div>
+        <a class="navbar-brand" href="#"></a>
+        
+      </div>
+    </nav>
+    <!-- Navigation end-->
+
+     <!-- header -->
+     <header>
+        <div class="container-fluid">
+          <img src="./Assets/header-img.jpg" alt="image" width="1359" height="300">
+          <h2 class="com fw-bolder">Learn Commerce With Us</h2>
+
+          <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='orange'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item fw-bold"><a href="./Index.html" >Home</a></li>
+            <li class="breadcrumb-item fw-bold"><a href="./Courses.html" >Courses</a></li>
+            <li class="breadcrumb-item active text-light fw-semibold" aria-current="page">Commerce</li>
+          </ol>
+        </nav>
+        </div>
+     </header> 
+     <!-- header end -->
+
+      <!-- main start -->
+      <main>
+        <div id="left"> 
+            <img class="side-pic position-relative optanon-category-C0001" src="./Assets/card img/Commerce-side-img.jpeg" loading="lazy" alt="side-pic" data-ot-ignore>
+    
+            <h3>Commerce
+                Overview:</h3>
+                <p>• Commerce is a dynamic and multifaceted field that encompasses the <br> exchange of goods, services, and financial transactions in the global <br> marketplace. It plays a pivotal role in the modern economy and is <br>characterized by a broad spectrum of business activities.
+                    <br><br>
+                • Financial management to marketing, from entrepreneurship to supply <br> chain logistics, commerce forms the backbone of industries and societies worldwide.</p>
+                <br>
+                <h3>Key Features:</h3>
+                <p class="p2">• Entrepreneurship and Business <br>
+                • Problem Solving <br>
+                • Financial Acumen <br>
+                • Career Progession</p>
+        </div>
+
+        <div id="right">
+            <h2 class="Co display-6 fw-bolder text-uppercase text-center">Commerce</h2>
+            <p class="p2">Commerce is the lifeblood of the business world, facilitating the exchange of goods and services, and driving economic growth. At Excellent Coaching, we understand the pivotal role commerce plays in our global society. Our commerce subjects encompass a diverse array of topics, from accounting to economics and business management, providing students with the tools to thrive in the dynamic world of commerce.</p>
+            </br></br>
+
+            <h4>Why Study Commerce with Us?</h4>
+                <br>
+                <h5>Comprehensive Curriculum:</h5> <p> Our commerce curriculum is thoughtfully designed to cater to a wide range of interests and career aspirations. We offer courses that span accounting, economics, finance, and business management.</p>
+                <br>
+                <h5>Experienced Instructors:</h5> <p> Our instructors bring a wealth of practical knowledge and experience to the classroom. They are passionate about fostering financial literacy, business acumen, and economic insight in our students.</p>
+                <br>
+                <h5>Real-World Application:</h5> <p>Commerce isn't just about theory; it's about practical application. Our courses emphasize real-world scenarios, case studies, and simulations to prepare students for the complexities of commerce.</p>
+                <br>
+                <h5>Diverse Career Opportunities: </h5> <p>A solid foundation in commerce opens doors to various career opportunities, from finance and entrepreneurship to marketing and international trade. Our courses equip students to excel in these competitive fields.</p>
+                <br>
+                <p>Studying commerce with us means embarking on a journey of financial understanding, strategic thinking, and business innovation. Whether you're aspiring to be a successful entrepreneur, financial analyst, or simply wish to make informed financial decisions, our courses provide the knowledge and skills to achieve your goals.</p>
+        </div>
+     </main>
+     <!-- main end -->
+
+     <!-- courses-sec Start -->
+     <section class="course1 pt-0 pb-3" style="background-color: #e1dddb;">
+      <div class="container px-5">
+          <div class="row gx-5 justify-content-center d-flex flex-row">
+              <div class="col-xxl-8 w-100">
+                  <div class="text-center1 my-5">
+                      <h2 class="display-7 fw-bolder"><span class="text-uppercase ">Courses</span></h2><br><br>
+                      <p class="para">We offer a diverse range of courses to equip you with the knowledge and skills needed to excel in the world of business and economics. Our curriculum is designed to provide a strong foundation and prepare you for a successful career in various commerce-related fields. Explore our course offerings below:</p><br><br>
+                      <h3 class="display-4 fw-bolder">Featured Courses</h3>
+                      <div class="container-fluid d-flex flex-row justify-content-around text-center">
+                          
+                        <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                          <img src="./Assets/card img/accounting (2).jpg" class="card-img-top rounded-top-4" alt="maths">
+                          <div class="card-body1 shadow rounded-bottom-4" style="background-color: #f0f0f0; height:0.2em;">
+                            <h5 class="card-title1 fw-semibold ">Financial Accounting </h5>
+                            <h6>4 months</h6>
+                            <p class="card-text1 text-dark">The Financial Accounting Essentials course provides a comprehensive introduction to the principles of financial accounting. Advanced financial reporting and analysis.</p>
+                            <br>
+                            <a href="./Assets/Sub.File/FINANCIAL ACCOUNTING SUBJECT LIST.docx" download="subject detail"         class="btn">Download Info</a>
+                          <a href="./Assets/Sub.File/commerce course fee 1.pdf" download="fee info" class="btn">Fee Details</a>
+                          </div>
+                        </div>
+
+                        <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                          <img src="./Assets/card img/supply chain management.jpg" class="card-img-top rounded-top-4" alt="maths">
+                          <div class="card-body1 shadow rounded-bottom-4" style="background-color: #dfdfdf; height: 0em;">
+                            <h5 class="card-title1 fw-semibold">Supply Chain Management</h5>
+                            <h6>6 months</h6>
+                            <p class="card-text1 text-dark"> Master the art of supply chain logistics, including procurement, inventory management, and distribution. Ideal for those aiming to optimize supply chain operations.</p>
+                            <br>
+                            <a href="./Assets/Sub.File/SUPPLY CHAIN MANAGEMENT SUBJECT LIST.docx" download="subject detail"         class="btn">Download Info</a>
+                            <a href="./Assets/Sub.File/commerce course fee 2.pdf.pdf" download="fee info" class="btn">Fee Details</a>
+                          </div>
+                        </div>
+
+                        <div class="card1 rounded-4" style="width: 18rem; height: 25rem;">
+                          <img src="./Assets/card img/human resource management.jpg" class="card-img-top rounded-top-4" alt="maths">
+                          <div class="card-body1 shadow rounded-bottom-4" style="background-color: #e1e1e1; height: 0em;">
+                            <h5 class="card-title1 fw-semibold">Human Resource Management</h5>
+                            <h6>1 year</h6>
+                            <p class="card-text1 text-dark">Dive into the world of HR, including recruitment, employee relations, and workforce development. This course prepares you for HR management roles.</p>
+<br>                        <a href="./Assets/Sub.File/HUMAN RESOURCE MANAGEMENT SUBJECT LIST.docx" download="subject detail"         class="btn">Download Info</a>
+                          <a href="./Assets/Sub.File/commerce course fee 3.pdf" download="fee info" class="btn">Fee Details</a>                      
+                          </div>                 
+                        </div>                    
+                       </div>
+
+                       <br>
+                       <br>
+
+                       <a href="./commercecourse.html" class="btn2">View Details</a> 
+                      <br> 
+                      <br>    
+                      <br>   
+                      <p class="para1"><span>Enroll Today:</span> Explore these courses and embark on your journey to a successful career in commerce.</p>
+
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+        <!-- course-sec End -->
+
+        <!-- content start-->
+        <section class="content pt-0 pb-3">
+          <div class="related-topics bg-light-300 py-5">
+              <div class="container-mw-lg container-fluid">
+                  <div class="d-flex justify-content-between pb-4">
+                      <h2>Related Topics</h2>
+                  </div>
+
+                  <div class="related-topics-list d-flex">
+                    <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Accounting</a>
+                    <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Finance</a>    
+                    <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Economics</a>
+                    <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Marketing</a>
+                    <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Business</a>
+                    <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">Entrepreneurship</a>
+                    <a href="#" class="paragon___chip paragon___chip-light m-0" role="button">International Business</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="learn-body container-mw-lg container-fluid">
+            <div class="row">
+                <div class="learn-body__modules col-12">
+                    <div class="modular-section">
+                    <div class="container-mw-lg container-fluid">
+                        <div id="text-module">
+                          <div class="">
+                            <h2 class="display-1 pb-1 mb-4"></h2>
+                              <h4 class="h3 my-4">Why is Commerce Important?</h4>
+                                <p class="p">
+                                  "Commerce is of paramount importance in the modern globalized world, serving as the backbone of economies and businesses. It encompasses a vast array of activities, including trade, finance, marketing, and entrepreneurship, contributing significantly to economic growth and development.
+
+                                  One of the key roles of commerce is facilitating the exchange of goods and services. It enables the flow of products from manufacturers to consumers, fostering competition, choice, and efficiency. Through the mechanisms of supply chains and logistics, commerce ensures that goods reach their intended destinations promptly and cost-effectively.
+                                  
+                                  Commerce is also the engine that drives innovation and entrepreneurship. It provides a platform for individuals to turn their ideas into viable businesses, creating jobs and stimulating economic activity. Entrepreneurs play a pivotal role in the business landscape, driving innovation, competition, and economic progress.
+                                      
+                                  </p>
+                                  <p class="p">Financial institutions and markets are integral components of commerce, offering crucial services such as banking, investment, and insurance. These institutions lubricate the wheels of business by providing capital, managing risks, and facilitating investment, which in turn spurs economic growth.
+
+                                    Moreover, commerce is a dynamic field that responds to changing consumer demands, technological advancements, and global trends. It adapts and evolves to meet the ever-shifting needs of businesses and society, ensuring that resources are allocated efficiently.
+                                    
+                                    In a broader societal context, commerce underpins the livelihoods of countless individuals and communities. It creates jobs, generates income, and supports a high standard of living. It fosters social development by financing education, healthcare, and infrastructure, thereby improving the overall quality of life.
+                                    
+                                    Ultimately, commerce serves as the circulatory system of the global economy, connecting people, businesses, and nations. Its importance is underscored by its capacity to create wealth, drive innovation, and enhance the well-being of societies worldwide."
+                                  </p>
+
+                                  <h4 class="h3 my-4">Commerce Courses And Curriculum</h4>
+                                  <p class="p">
+                                          
+                                  "Commerce courses offer a diverse range of subjects and topics designed to provide students with a strong foundation in business and economics. The curriculum for commerce courses typically includes a combination of core subjects, elective courses, and practical experiences. Below is a general overview of common courses and curriculum in commerce:"
+                                  </p>
+
+                                  <p class="p2">Build your commerce skills with courses covering:</p>
+                                    <ul class="pl-4.5">
+                                      <li>
+                                        Marketing
+                                      </li>
+                                      <li> 
+                                        Financial Management
+                                      </li>
+                                      <li>
+                                        Organizatinal Behaviour
+                                      </li>
+                                      <li>
+                                        International Marketing
+                                      </li>
+                                      <li>
+                                        Innovation and New Product Development
+                                      </li>
+                                    </ul>
+                                
+                                  <br>
+                                  <p class="p">
+                                    Or, take speciialized commerce courses designed for Accounting, economics, and Introduction to business professionals that explore topics like Financial Accounting, Strategic management, and entrepreneurship.
+                                  </p>
+                                </div>
+                                  <p class="p"></p>
+                                </div>
+                              <div class="d-flex justify-content-end"></div>
+                          </div>
+                      </div>
+                      </div>
+
+                      <div class="modular-section">
+                        <div class="container-mw-lg container-fluid">
+                          <div class="text-module">
+                            <h2 class="display-1 pb-1 mb-4"></h2>
+                              <h3 class=" my-4">Careers In Commerce</h3>
+                                <p class="p">A career in commerce offers a wide range of opportunities in the business and financial sectors:</p>
+                                
+                                <ul class="pl-4.5">
+                                  <li>
+                                    Accountant
+                                  </li>
+                                  <li>
+                                    Marketing Manager
+                                  </li>
+                                  <li>
+                                    Banker
+                                  </li>
+                                  <li>
+                                    Data Analyst
+                                  </li>
+                                  <li>
+                                    Entrepreneur
+                                  </li>
+                                </ul>
+                                <br>
+                                <p class="p">
+                                  But, a commerce education is beneficial for people who aspire to careers in many different fields, from finance to business. Build your commerce skills and explore how excellent coaching courses can help you get started on your learning journey today.
+                                </p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+
+      <!-- footer Start -->
+     <footer class="text-center text-lg-start text-muted">
+
+      <!-- Social media Start-->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+      <!-- Left Start -->
+        <div class="Left me-5 d-none d-lg-block fw-semibold">
+          <span>Get connected with us on social networks:</span>
+        </div>
+      <!-- Left End -->
+
+      <!-- Right Start -->
+      <div>
+        <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C318307045144%7Ce%7Cfacebook%27%7C&placement=&creative=318307045144&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789042%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9077147%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFBbIfWFZCipG3ZEc-wXWQrTmHbfzJe2uPGFn-te9GfJMDzKLNglWSBoC1BUQAvD_BwE" class="me-4 text-reset">
+          <i class="fab fa-facebook-f" style="color: #e6e6e6;"></i>
+        </a>
+        <a href="https://twitter.com/?lang=en" class="me-4 text-reset">
+          <i class="fab fa-twitter" style="color: #e6e6e6;"></i>
+        </a>
+        <a href="https://www.google.com/gmail/about/" class="me-4 text-reset">
+          <i class="fab fa-google" style="color: #e6e6e6;"></i>
+        </a>
+        <a href="https://www.instagram.com/" class="me-4 text-reset">
+          <i class="fab fa-instagram" style="color: #e6e6e6;"></i>
+        </a>
+        <a href="https://pk.linkedin.com/" class="me-4 text-reset">
+          <i class="fab fa-linkedin" style="color: #e6e6e6;"></i>
+        </a>
+      </div>
+      <!-- Right End -->
+
+      </section>
+
+      <!-- Social media End-->
+
+      <!-- Links -->
+      <section class="link">
+        <div class="container text-center text-md-start mt-5">
+
+        <!-- Grid row -->
+        <div class="row mt-3">
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4" style="color: #71b1e1; font-size: 1em;">
+              <div class="footer-logo">
+                <img src="./Assets/Logo/logo e-project-01.png" alt="Your Logo">
+            Excellent Coaching</div>
+            </h6>
+            <p>
+              Welcome to Excellent Coaching - Your Path to Success!
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+            <h6 class="text-uppercase fw-semibold mb-4 ">
+              Explore Our Courses
+            </h6>
+            <p>
+              <a href="./Math.html" class="text-reset">Mathematics</a>
+            </p>
+            <p>
+              <a href="./commerce.html" class="text-reset">Commerce</a>
+            </p>
+            <p>
+              <a href="./science.html" class="text-reset">Science</a>
+            </p>
+            <p>
+              <a href="./english.html" class="text-reset">English</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+              <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-semi-bold mb-4">
+            Quick links
+          </h6>
+          <p>
+            <a href="./aboutUs.html" class="text-reset">About Us</a>
+          </p>
+          <p>
+            <a href="./Faculty.html" class="text-reset">Faculty</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">FAQ</a>
+          </p>
+          <p>
+            <a href="./Contact.html" class="text-reset">Contact</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+            <!-- Links -->
+            <h6 class="text-uppercase fw-semi-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>123 Example Street, City, Country</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Links -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.25); color: #e8e8e8;">
+        © 2019 Copyright:
+        <a class="text-reset fw-bold" href="http://127.0.0.1:5500/Index.html" style="text-decoration: none;">Excelent Coaching</a><p>All rights reserved.</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+      <!-- footer End -->
+
+</body>
+</html>     

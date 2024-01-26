@@ -1,0 +1,61 @@
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\bin\Debug\net7.0\appsettings.json
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\bin\Debug\net7.0\E-PROJECT.staticwebassets.runtime.json
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\bin\Debug\net7.0\E-PROJECT.exe
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\bin\Debug\net7.0\E-PROJECT.deps.json
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\bin\Debug\net7.0\E-PROJECT.runtimeconfig.json
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\bin\Debug\net7.0\E-PROJECT.dll
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\bin\Debug\net7.0\E-PROJECT.pdb
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\E-PROJECT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\E-PROJECT.AssemblyInfoInputs.cache
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\E-PROJECT.AssemblyInfo.cs
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\E-PROJECT.csproj.CoreCompileInputs.cache
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\E-PROJECT.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\E-PROJECT.RazorAssemblyInfo.cache
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\E-PROJECT.RazorAssemblyInfo.cs
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\staticwebassets\msbuild.E-PROJECT.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\staticwebassets\msbuild.build.E-PROJECT.props
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.E-PROJECT.props
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.E-PROJECT.props
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\scopedcss\bundle\E-PROJECT.styles.css
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\scopedcss\projectbundle\E-PROJECT.bundle.scp.css
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\E-PROJECT.dll
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\refint\E-PROJECT.dll
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\E-PROJECT.pdb
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\E-PROJECT.genruntimeconfig.cache
+C:\Users\mabdu\OneDrive\Desktop\New folder\E-PROJECT\E-PROJECT\obj\Debug\net7.0\ref\E-PROJECT.dll
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\bin\Debug\net7.0\appsettings.json
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\bin\Debug\net7.0\E-PROJECT.staticwebassets.runtime.json
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\bin\Debug\net7.0\E-PROJECT.exe
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\bin\Debug\net7.0\E-PROJECT.deps.json
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\bin\Debug\net7.0\E-PROJECT.runtimeconfig.json
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\bin\Debug\net7.0\E-PROJECT.dll
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\bin\Debug\net7.0\E-PROJECT.pdb
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\E-PROJECT.csproj.AssemblyReference.cache
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\E-PROJECT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\E-PROJECT.AssemblyInfoInputs.cache
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\E-PROJECT.AssemblyInfo.cs
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\E-PROJECT.csproj.CoreCompileInputs.cache
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\E-PROJECT.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\E-PROJECT.RazorAssemblyInfo.cache
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\E-PROJECT.RazorAssemblyInfo.cs
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\staticwebassets\msbuild.E-PROJECT.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\staticwebassets\msbuild.build.E-PROJECT.props
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.E-PROJECT.props
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.E-PROJECT.props
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\scopedcss\bundle\E-PROJECT.styles.css
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\scopedcss\projectbundle\E-PROJECT.bundle.scp.css
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\E-PROJECT.dll
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\refint\E-PROJECT.dll
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\E-PROJECT.pdb
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\E-PROJECT.genruntimeconfig.cache
+C:\Users\asp.APTECHNN2\Desktop\E-PROJECT\obj\Debug\net7.0\ref\E-PROJECT.dll
